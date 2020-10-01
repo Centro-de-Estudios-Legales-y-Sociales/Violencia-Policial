@@ -2,7 +2,7 @@
 
 angular.module('app.core')
 .directive('iconChart', function() {
-    var iconUrl = '/assets/icons/person.svg';
+    var iconUrl = '../../assets/icons/person.svg';
     return {
         restrict: 'E',
         replace: true,
@@ -78,7 +78,7 @@ angular.module('app.core')
 
 
         },
-        templateUrl: 'scripts/views/directives/iconChart.html'
+        templateUrl: '../../scripts/views/directives/iconChart.html'
     };
 
 });

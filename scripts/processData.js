@@ -15295,9 +15295,9 @@ self.addEventListener(
   "message",
   function (e) {
     var hoursARGMT_3 = 3 * 60 * 60 * 1000;
-    var fData = "/data/f.json";
-    var vData = "/data/v.json";
-    var hData = "/data/h.json";
+    var fData = "../../data/f.json";
+    var vData = "../../data/v.json";
+    var hData = "../../data/h.json";
 
     var mainData = [];
 

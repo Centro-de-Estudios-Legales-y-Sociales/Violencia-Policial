@@ -11,7 +11,7 @@ genApp.run(function($rootScope, $timeout, $location, $http, medService) {
 
 genApp.factory("LoaderService",['$q',function($q){
 
-    var worker = new Worker('scripts/processData.js');
+    var worker = new Worker('/scripts/scripts/processData.js');
     var defer = $q.defer();
     worker.addEventListener('message', function(e) {
       for (var i = 0; i < susbcribers.length; i++) {
