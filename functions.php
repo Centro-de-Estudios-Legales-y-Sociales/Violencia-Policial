@@ -76,7 +76,7 @@ if( !function_exists('cels_theme')) {
         add_action( 'wp_enqueue_scripts', 'styles_scripts_header' );
         add_action( 'wp_enqueue_scripts', 'styles_scripts_footer' );
         add_action( 'admin_enqueue_scripts', 'admin_styles' );
-        
+        require_once( get_template_directory() . '/inc/panel.php' );
     }
 }
 

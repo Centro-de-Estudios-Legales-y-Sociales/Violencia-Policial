@@ -17,12 +17,12 @@
     <div class="description desc-desktop d-none d-md-block w-50 vh-100">
         <div class="p-3" style="margin: 0 50px">
             <img src="<?php echo $logo ?>" alt="Logo CELS" class="logo-img img-fluid" />
-            <h1 class="title bold-font">violencia <br/>policial</h1>
-            <p class="reg-font mt-3">Violencia policial es una plataforma que reúne datos actualizados sobre lesiones y
+            <h1 class="title bold-font"><?php echo get_theme_mod( 'text_h_1', 'violencia <br/>policial')?></h1>
+            <p class="reg-font mt-3"><?php echo get_theme_mod( 'text_h_2', '  Violencia policial es una plataforma que reúne datos actualizados sobre lesiones y
                 muertes producidas por
                 las fuerzas de seguridad argentinas para contribuir a monitorear sus intervenciones y orientar políticas
                 de seguridad
-                desde una perspectiva de derechos humanos.</p>
+                desde una perspectiva de derechos humanos.')?></p>
             <ol class="content-list medium-font">
                 <li><a href="#datos-est" target="_self">datos estadísticos</a></li>
                 <li><a href="#historias" target="_self">historias</a></li>
@@ -34,16 +34,16 @@
             </ol>
             <div class="redes">
                 <ul class="d-flex flex-row p-0 position-absolute">
-                    <li><a href="https://www.facebook.com/CELS.Argentina/" target="_blank"
+                    <li><a href="<?php echo get_theme_mod( 'facebook', 'https://www.facebook.com/CELS.Argentina/')?>" target="_blank"
                             rel="noreferrer noopener"><img src="<?php echo get_template_directory_uri()?>/assets/img/facebook.png" class="img-fluid"
                                 alt="Facebook logo" /></a></li>
-                    <li><a href="https://www.instagram.com/cels_argentina/" target="_blank"
+                    <li><a href="<?php echo get_theme_mod( 'instagram', 'https://www.instagram.com/cels_argentina/')?>" target="_blank"
                             rel="noreferrer noopener"><img src="<?php echo get_template_directory_uri()?>/assets/img/instagram.png" class="img-fluid"
                                 alt="Instagram logo" /></a></li>
-                    <li><a href="https://www.youtube.com/user/CELSAUDIOVISUAL" target="_blank"
+                    <li><a href="<?php echo get_theme_mod( 'videos', 'https://www.youtube.com/user/CELSAUDIOVISUAL')?>" target="_blank"
                             rel="noreferrer noopener"><img src="<?php echo get_template_directory_uri()?>/assets/img/videos.png" class="img-fluid"
                                 alt="Videos logo" /></a></li>
-                    <li><a href="https://twitter.com/CELS_Argentina" target="_blank" rel="noreferrer noopener"><img
+                    <li><a href="<?php echo get_theme_mod( 'twitter', 'https://twitter.com/CELS_Argentina')?>" target="_blank" rel="noreferrer noopener"><img
                                 src="<?php echo get_template_directory_uri()?>/assets/img/twitter.png" class="img-fluid" alt="Twitter logo" /></a></li>
                     <!-- <li class="search-item">
                         <input type="search" class="search-box" />
@@ -63,17 +63,17 @@
     </div>
     <div class="redes d-block d-md-none">
         <ul class="d-flex flex-row p-0">
-            <li><a href="https://www.facebook.com/CELS.Argentina/" target="_blank" rel="noreferrer noopener"><img
+            <li><a href="<?php echo get_theme_mod( 'facebook', 'https://www.facebook.com/CELS.Argentina/')?>" target="_blank" rel="noreferrer noopener"><img
                         src="<?php echo get_template_directory_uri()?>/assets/img/facebook.png" class="img-fluid" alt="Facebook logo" /></a></li>
-            <li><a href="https://www.instagram.com/cels_argentina/" target="_blank" rel="noreferrer noopener"><img
+            <li><a href="<?php echo get_theme_mod( 'instagram', 'https://www.instagram.com/cels_argentina/')?>" target="_blank" rel="noreferrer noopener"><img
                         src="<?php echo get_template_directory_uri()?>/assets/img/instagram.png" class="img-fluid" alt="Instagram logo" /></a></li>
-            <li><a href="https://www.youtube.com/user/CELSAUDIOVISUAL" target="_blank" rel="noreferrer noopener"><img
+            <li><a href="<?php echo get_theme_mod( 'videos', 'https://www.youtube.com/user/CELSAUDIOVISUAL')?>" target="_blank" rel="noreferrer noopener"><img
                         src="<?php echo get_template_directory_uri()?>/assets/img/videos.png" class="img-fluid" alt="Videos logo" /></a></li>
-            <li><a href="https://twitter.com/CELS_Argentina" target="_blank" rel="noreferrer noopener"><img
+            <li><a href="<?php echo get_theme_mod( 'twitter', 'https://twitter.com/CELS_Argentina')?>" target="_blank" rel="noreferrer noopener"><img
                         src="<?php echo get_template_directory_uri()?>/assets/img/twitter.png" class="img-fluid" alt="Twitter logo" /></a></li>
         </ul>
     </div>
 </section>
 <div class="container epigrafe d-block d-md-none">
-    <small><b>Mauricio Centurión</b></small>
+    <small><b><?php echo get_theme_mod('epigrafe','Mauricio Centurión')?></b></small>
 </div>
