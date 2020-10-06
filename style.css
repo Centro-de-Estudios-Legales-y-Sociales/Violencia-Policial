@@ -6,3 +6,6 @@ Author URI: https://genosha.com.ar
 Description: theme para el CELS
 Text Domain: cels
 */
+html {
+    scroll-behavior: smooth;
+  }

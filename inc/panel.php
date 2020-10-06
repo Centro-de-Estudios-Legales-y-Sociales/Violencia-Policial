@@ -10,7 +10,7 @@ function cels_genosha_customize_register($wp_customize)
 		'theme_supports' => '',
 	));
 	$wp_customize->add_section('text_header', array(
-		'title' => __('Texto Header', 'cels'),
+		'title' => __('Contenido Header', 'cels'),
 		'panel' => 'genosha_text_header',
 		'priority' => 1,
 		'capability' => 'edit_theme_options',
@@ -104,5 +104,15 @@ function cels_genosha_customize_register($wp_customize)
 		'priority' => 4,
 		'type' => 'text',
 	));
+	$wp_customize->add_setting('imagen_header', array(
+        'transport'         => 'refresh',
+        'height'         => 325,
+    ));
+	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'imagen_header_control', array(
+        'label'             => __('Imagen Header', 'cels'),
+        'section' => 'text_header',
+        'settings'          => 'imagen_header',    
+    )));
+   
 }
 add_action('customize_register', 'cels_genosha_customize_register');

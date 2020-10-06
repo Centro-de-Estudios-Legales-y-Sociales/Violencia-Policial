@@ -950,7 +950,7 @@ footer .footer-title {
 }
 
 .header {
-  background-image: url("../../assets/img/headerimg.jpg");
+  /*background-image: url("../../assets/img/headerimg.jpg");*/
   background-color: black;
   background-position: right;
   background-repeat: no-repeat;
