@@ -7,7 +7,15 @@ angular
           $scope.loading = true;
           $scope.mapContainer = '#civiles-map-graph';
           medService.subscribe($scope);
-	      
+
+          $scope.validation1 = function() {
+            return !loading && currentH.length > 0 && currentVictims == 0;
+          };
+
+          $scope.validation2 = function() {
+            return currentH.length > 0 && currentVictims > 0;
+          }
+
           $scope.onActiveInstitucion = function(i,m){
             $scope.activeInstitucion = m;
              $scope.loadChart(medService.hechos);
@@ -156,7 +164,7 @@ angular
 
                 }
                 catch(e){
-                  console.log('no esta', k);
+                  //console.log('no esta', k);
                 }
               }
         
@@ -197,7 +205,7 @@ angular
                       
                   }
                   catch(e){
-                    console.log('no esta', k);
+                    //console.log('no esta', k);
                   }
              }
            });                     
@@ -207,7 +215,7 @@ angular
           };
          
           $scope.currentMap;
-          d3.xml("assets/svg/mapa.svg",function(data) {                
+          d3.xml("https://cels.test/wp-content/themes/cels/assets/svg/mapa.svg",function(data) {                
                   $scope.currentMap = d3.select($scope.mapContainer)
                     .node()
                     .append(data.documentElement);

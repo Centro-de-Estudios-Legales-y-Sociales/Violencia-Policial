@@ -7,6 +7,14 @@ angular
           $scope.loading = true;
           $scope.mapContainer = '#funcionarios-map-graph';
           medService.subscribe($scope);
+
+          $scope.validation3 = function() {
+            return !loading && currentH.length > 0 && currentVictims == 0;
+          };
+
+          $scope.validation4 = function() {
+            return currentH.length > 0 && currentVictims > 0;
+          }
         
           $scope.onActiveInstitucion = function(i,m){
             $scope.activeInstitucion = m;
@@ -203,7 +211,7 @@ angular
           };
          
           $scope.currentMap;
-          d3.xml("assets/svg/mapa.svg",function(data) {                
+          d3.xml("https://cels.test/wp-content/themes/cels/assets/svg/mapa.svg",function(data) {                
                   $scope.currentMap = d3.select($scope.mapContainer)
                     .node()
                     .append(data.documentElement);

@@ -15304,7 +15304,7 @@ self.addEventListener(
     var medData = {};
 
     self.filterData = function () {
-      console.log("procesing data ");
+      //console.log("procesing data ");
       medData.rows = mainData;
       var entities = d3
         .nest()
@@ -15326,7 +15326,7 @@ self.addEventListener(
       medData.hechos = entities.filter(function (x) {
         return x.key === hechosTemplateId;
       })[0].values;
-      console.log(medData.hechos[0]);
+      //console.log(medData.hechos[0]);
       medData.victimas.map(function (v) {
         v.title = v.title.replace("  ", " ");
       });
@@ -15340,24 +15340,24 @@ self.addEventListener(
         return x.metadata.ano;
       });
 
-      console.log(
-        "Personas en Uwazi",
-        medData.victimas.length,
-        "Personas por Hechos en Uwazi:",
-        d3.sum(medData.hechos, function (h) {
-          return h.metadata.victimas_civiles
-            ? h.metadata.victimas_civiles.length
-            : 0;
-        })
-      );
-      console.log(
-        "Funcionarios en Uwazi",
-        medData.funcionarios.length,
-        "Funcionaries por Hechos en Uwazi:",
-        d3.sum(medData.hechos, function (h) {
-          return h.metadata.funcionarios ? h.metadata.funcionarios.length : 0;
-        })
-      );
+      // console.log(
+      //   "Personas en Uwazi",
+      //   medData.victimas.length,
+      //   "Personas por Hechos en Uwazi:",
+      //   d3.sum(medData.hechos, function (h) {
+      //     return h.metadata.victimas_civiles
+      //       ? h.metadata.victimas_civiles.length
+      //       : 0;
+      //   })
+      // );
+      // console.log(
+      //   "Funcionarios en Uwazi",
+      //   medData.funcionarios.length,
+      //   "Funcionaries por Hechos en Uwazi:",
+      //   d3.sum(medData.hechos, function (h) {
+      //     return h.metadata.funcionarios ? h.metadata.funcionarios.length : 0;
+      //   })
+      // );
 
       var load = false;
       medData.hechos.map(function (x) {
@@ -15466,25 +15466,25 @@ self.addEventListener(
           return filter;
         }).length;
       });
-      console.log(
-        d3.sum(medData.hechos, function (h) {
-          return h.metadata.lista_victimas.length;
-        }),
-        d3.sum(medData.hechos, function (h) {
-          return h.metadata.victimas_fatales;
-        }),
-        medData.victimas.length
-      );
+      //console.log(
+      //   d3.sum(medData.hechos, function (h) {
+      //     return h.metadata.lista_victimas.length;
+      //   }),
+      //   d3.sum(medData.hechos, function (h) {
+      //     return h.metadata.victimas_fatales;
+      //   }),
+      //   medData.victimas.length
+      // );
 
-      console.log(
-        d3.sum(medData.hechos, function (h) {
-          return h.metadata.lista_funcionarios.length;
-        }),
-        d3.sum(medData.hechos, function (h) {
-          return h.metadata.funcionarios_fatales;
-        }),
-        medData.funcionarios.length
-      );
+      //console.log(
+      //   d3.sum(medData.hechos, function (h) {
+      //     return h.metadata.lista_funcionarios.length;
+      //   }),
+      //   d3.sum(medData.hechos, function (h) {
+      //     return h.metadata.funcionarios_fatales;
+      //   }),
+      //   medData.funcionarios.length
+      // );
 
       medData.muertes_genero = medData.victimas.filter(function (v) {
         return (
@@ -15513,7 +15513,7 @@ self.addEventListener(
         });
       });
 
-      console.log("grouping info");
+      //console.log("grouping info");
 
       medData.institucion = medData.hechos.map(function (v) {
         return v.metadata.institucion[0];
@@ -15553,7 +15553,7 @@ self.addEventListener(
         })
         .entries(medData.years);
 
-      console.log("cleaning");
+      //console.log("cleaning");
 
       medData.genero = medData.genero.sort(function (a, b) {
         return a.key.localeCompare(b.key);

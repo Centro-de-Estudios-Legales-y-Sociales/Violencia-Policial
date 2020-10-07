@@ -7,8 +7,7 @@ if ( have_posts() ) :
         the_content();
     endwhile;
 else :
-    _e( 'Sorry, no posts matched your criteria.', 'textdomain' );
+    _e( 'Sorry, no posts matched your criteria.', 'cels' );
 endif;
 ?>
-
 <?php get_footer()?>

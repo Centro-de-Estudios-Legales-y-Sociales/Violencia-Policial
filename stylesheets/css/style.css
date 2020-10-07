@@ -68,7 +68,7 @@ p {
   color: gray !important;
 }
 
-.light-font {
+.light-font, body.single p {
   font-family: "Roboto Light";
 }
 
@@ -93,7 +93,7 @@ p {
   color: #000;
 }
 
-.info {
+.info, body.single p {
   font-size: 18px;
 }
 
@@ -1189,7 +1189,7 @@ svg {
     letter-spacing: -2px;
   }
 
-  .info {
+  .info, body.single p {
     font-size: 20px;
   }
 

@@ -18,7 +18,7 @@
 angular
     .module('app.core')
     .controller('FuncionariosMController', function($http, $rootScope, $scope, medService) {
-      console.log('FuncionariosMController');
+      //console.log('FuncionariosMController');
       
        medService.subscribe($scope);
 
@@ -154,7 +154,7 @@ angular
                porcentaje: groups[i].percentage,
              });
            }
-           console.log(total,groups);
+           //console.log(total,groups);
 
            $scope.no_results = $scope.currentH.length == 0 ? 0 : percentage;
            

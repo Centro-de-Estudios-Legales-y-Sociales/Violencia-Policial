@@ -55,7 +55,7 @@ var civilesInstChart =  c3.generate({
 angular
     .module('app.core')
     .controller('CivilesController', function($http, $rootScope, $scope, medService) {
-    	console.log('CivilesController');
+    	//console.log('CivilesController');
 	        $scope.loading = true;
        medService.subscribe($scope);
        $scope.onActiveInstitucion = function(i,m){

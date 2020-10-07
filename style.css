@@ -8,4 +8,33 @@ Text Domain: cels
 */
 html {
     scroll-behavior: smooth;
-  }
+}
+nav.navigation.post-navigation h2 {
+    display: none;
+}
+nav.navigation.post-navigation {
+  width: 100%;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.paginacion {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 2%;
+}
+.page-numbers {
+  display: inline-block;
+  padding: .5% 1%;
+  background: lightgrey;
+}
+span.page-numbers.current{
+  background-color: #e22929;
+  color: white;
+}
+.next.page-numbers{
+  background-color: white;
+}

@@ -55,7 +55,7 @@ var funcionariosInChart = c3.generate({
 angular
     .module('app.core')
     .controller('FuncionariosIController', function($http, $rootScope, $scope, medService) {
-    	console.log('FuncionariosIController');
+    	//////console.log('FuncionariosIController');
 	    
        medService.subscribe($scope);
        $scope.loading = true;
