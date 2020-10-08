@@ -1,0 +1,1773 @@
+[
+    {
+        "id": 248,
+        "title": "Div Interna Simple",
+        "icon": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect opacity=\"0.25\" width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 22 7)\" fill=\"currentColor\" \/>\n<rect width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 17 2)\" fill=\"currentColor\" \/>\n<\/svg>\n",
+        "keywords": [],
+        "slug": "lazyblock\/div-interna-simple",
+        "description": "",
+        "category": "text",
+        "category_label": "text",
+        "supports": {
+            "customClassName": true,
+            "anchor": false,
+            "align": [
+                "wide",
+                "full"
+            ],
+            "html": false,
+            "multiple": true,
+            "inserter": true
+        },
+        "ghostkit": {
+            "supports": {
+                "spacings": false,
+                "display": false,
+                "scrollReveal": false,
+                "frame": false,
+                "customCSS": false
+            }
+        },
+        "controls": {
+            "control_054b9f45a4": {
+                "type": "inner_blocks",
+                "name": "contenido",
+                "default": "",
+                "label": "Contenido",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_e46913452a": {
+                "type": "text",
+                "name": "clase",
+                "default": "",
+                "label": "Clase",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_ffebb54f73": {
+                "type": "text",
+                "name": "clase-container",
+                "default": "",
+                "label": "Clase container",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            }
+        },
+        "code": {
+            "output_method": "php",
+            "editor_html": "",
+            "editor_callback": "",
+            "editor_css": "",
+            "frontend_html": "<div class=\"<?php echo $attributes['clase']?>\">\n    <div class=\"<?php echo $attributes['clase-container']?>\">\n      <?php echo $attributes['contenido']?>\n    <\/div>\n<\/div>",
+            "frontend_callback": "",
+            "frontend_css": "",
+            "show_preview": "always",
+            "single_output": false
+        },
+        "condition": []
+    },
+    {
+        "id": 243,
+        "title": "Custodia Bloque",
+        "icon": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect opacity=\"0.25\" width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 22 7)\" fill=\"currentColor\" \/>\n<rect width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 17 2)\" fill=\"currentColor\" \/>\n<\/svg>\n",
+        "keywords": [],
+        "slug": "lazyblock\/custodia-bloque",
+        "description": "",
+        "category": "text",
+        "category_label": "text",
+        "supports": {
+            "customClassName": true,
+            "anchor": false,
+            "align": [
+                "wide",
+                "full"
+            ],
+            "html": false,
+            "multiple": true,
+            "inserter": true
+        },
+        "ghostkit": {
+            "supports": {
+                "spacings": false,
+                "display": false,
+                "scrollReveal": false,
+                "frame": false,
+                "customCSS": false
+            }
+        },
+        "controls": {
+            "control_b93979483f": {
+                "type": "image",
+                "name": "icono-1",
+                "default": "",
+                "label": "Icono 1",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "preview_size": "medium",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_d05bbb42a7": {
+                "type": "text",
+                "name": "titulo-1",
+                "default": "Condiciones de detención",
+                "label": "Titulo 1",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_e4eba14230": {
+                "type": "textarea",
+                "name": "texto-1",
+                "default": "La violencia sistemática, el hacinamiento y la precariedad de la vida en estos espacios son un problema estructural de larga data.",
+                "label": "Texto 1",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_da5a004d79": {
+                "type": "image",
+                "name": "icono-2",
+                "default": "",
+                "label": "Icono 2",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "preview_size": "medium",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_b3ab6f4387": {
+                "type": "text",
+                "name": "titulo-2",
+                "default": "Alojamiento prolongado",
+                "label": "Titulo 2",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_5a0b2a4292": {
+                "type": "textarea",
+                "name": "texto-2",
+                "default": "Las dependencias policiales no están preparadas para alojar personas por mucho tiempo, ya que no cuentan con los espacios y medidas de seguridad básicas, pero su uso como lugar de detención prolongado es frecuente en muchos lugares del país.",
+                "label": "Texto 2",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            }
+        },
+        "code": {
+            "output_method": "php",
+            "editor_html": "",
+            "editor_callback": "",
+            "editor_css": "",
+            "frontend_html": "<div class=\"row mt-5\">\r\n            <div class=\"col-4 text-center\">\r\n                <img src=\"<?php echo $attributes['icono-1']['url']?>\" alt=\"\" class=\"img-fluid p-2\" \/>\r\n            <\/div>\r\n            <div class=\"col-8 d-flex align-items-left d-flex flex-column\">\r\n                <p class=\"block-title medium-font m-0\"><?php echo $attributes['titulo-1']?><\/p>\r\n                <p class=\"info light-font d-none d-md-block\"><?php echo $attributes['texto-1']?><\/p>\r\n            <\/div>\r\n            <div class=\"col-12 d-block d-md-none\">\r\n                <p class=\"info light-font\"><?php echo $attributes['texto-1']?><\/p>\r\n            <\/div>\r\n        <\/div>\r\n        <div class=\"row mt-4\">\r\n            <div class=\"col-4 text-center\">\r\n                <img src=\"<?php echo $attributes['icono-2']['url']?>\" alt=\"\" class=\"img-fluid p-2\" \/>\r\n            <\/div>\r\n            <div class=\"col-8 d-flex align-items-left d-flex flex-column\">\r\n                <p class=\"block-title medium-font m-0\"><?php echo $attributes['titulo-2']?><\/p>\r\n                <p class=\"info light-font d-none d-md-block\"><?php echo $attributes['texto-2']?> <\/p>\r\n            <\/div>\r\n            <div class=\"col-12  d-block d-md-none\">\r\n                <p class=\"info light-font\"><?php echo $attributes['texto-2']?><\/p>\r\n            <\/div>\r\n        <\/div>",
+            "frontend_callback": "",
+            "frontend_css": "",
+            "show_preview": "always",
+            "single_output": true
+        },
+        "condition": []
+    },
+    {
+        "id": 224,
+        "title": "Cebecera Situaciones",
+        "icon": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect opacity=\"0.25\" width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 22 7)\" fill=\"currentColor\" \/>\n<rect width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 17 2)\" fill=\"currentColor\" \/>\n<\/svg>\n",
+        "keywords": [],
+        "slug": "lazyblock\/cebecera-situaciones",
+        "description": "",
+        "category": "design",
+        "category_label": "design",
+        "supports": {
+            "customClassName": true,
+            "anchor": false,
+            "align": [
+                "wide",
+                "full"
+            ],
+            "html": false,
+            "multiple": true,
+            "inserter": true
+        },
+        "ghostkit": {
+            "supports": {
+                "spacings": false,
+                "display": false,
+                "scrollReveal": false,
+                "frame": false,
+                "customCSS": false
+            }
+        },
+        "controls": {
+            "control_f049d84995": {
+                "type": "text",
+                "name": "titulo",
+                "default": "situaciones que pueden derivar en desproporción",
+                "label": "Titulo",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_1f2a044434": {
+                "type": "image",
+                "name": "icono-1",
+                "default": "",
+                "label": "Icono 1",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "true",
+                "preview_size": "full",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_4809924bb8": {
+                "type": "image",
+                "name": "icono-2",
+                "default": "",
+                "label": "Icono 2",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "preview_size": "full",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_42eaff4fad": {
+                "type": "image",
+                "name": "icono-3",
+                "default": "",
+                "label": "Icono 3",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "preview_size": "full",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_fabb8f4a6c": {
+                "type": "text",
+                "name": "titulo-2",
+                "default": "situaciones delictivas",
+                "label": "Titulo 2",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_6af9a54cc0": {
+                "type": "text",
+                "name": "titulo-3",
+                "default": "persecuciones policiales",
+                "label": "Titulo 3",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_fab80b4167": {
+                "type": "text",
+                "name": "titulo-4",
+                "default": "represión",
+                "label": "Titulo 4",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_24986e4e03": {
+                "type": "textarea",
+                "name": "texto",
+                "default": "Muchos despliegues policiales ante situaciones conflictivas son extremadamente violentos y terminan causando la muerte o daños graves a la salud. Entre las situaciones que más se repiten están las persecuciones, las protestas y desalojos, los operativos y las acciones de prevención del delito y flagrancia.",
+                "label": "Texto",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            }
+        },
+        "code": {
+            "output_method": "php",
+            "editor_html": "",
+            "editor_callback": "",
+            "editor_css": "",
+            "frontend_html": "<div class=\"grey-bg py-5\">\r\n        <div class=\"container mt-4\">\r\n            <h2 class=\"red-title text-center medium-font pt-4\"><?php echo $attributes['titulo']?><\/h2>\r\n            <div class=\"row p-3 position-relative align-items-center justify-content-center\">\r\n                <div class=\"icons-bar position-absolute\"><\/div>\r\n                <div class=\"col-4 text-center\">\r\n                    <img src=\"<?php echo $attributes['icono-1']['url']?>\" alt=\"\" class=\"img-fluid p-2\" \/>\r\n                <\/div>\r\n                <div class=\"col-4 text-center\">\r\n                    <img src=\"<?php echo $attributes['icono-2']['url']?>\" alt=\"\" class=\"img-fluid p-2\" \/>\r\n                <\/div>\r\n                <div class=\"col-4 text-center\">\r\n                    <img src=\"<?php echo $attributes['icono-3']['url']?>\" alt=\"\" class=\"img-fluid p-2\" \/>\r\n                <\/div>\r\n            <\/div>\r\n            <div class=\"row d-none d-md-flex\">\r\n                <div class=\"col-4 text-center\">\r\n                    <p class=\"block-title d-inline-block text-left font-weight-bold medium-font mt-3\" style=\"line-height: 30px\"><?php echo $attributes['titulo-2']?><\/p>\r\n                <\/div>\r\n                <div class=\"col-4 text-center\">\r\n                    <p class=\"block-title d-inline-block text-left font-weight-bold medium-font mt-3\" style=\"line-height: 30px\"><?php echo $attributes['titulo-3']?><\/p>\r\n                <\/div>\r\n                <div class=\"col-4 text-center\">\r\n                    <p class=\"block-title d-inline-block text-left font-weight-bold medium-font mt-3\" style=\"line-height: 30px\"><?php echo $attributes['titulo-4']?><\/p>\r\n                <\/div>\r\n            <\/div>\r\n            <div class=\"row p-3\">\r\n                <p class=\"info light-font\"><?php echo $attributes['texto']?><\/p>\r\n            <\/div>\r\n        <\/div>\r\n    <\/div>",
+            "frontend_callback": "",
+            "frontend_css": "",
+            "show_preview": "always",
+            "single_output": true
+        },
+        "condition": []
+    },
+    {
+        "id": 206,
+        "title": "Casos Bloque",
+        "icon": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect opacity=\"0.25\" width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 22 7)\" fill=\"currentColor\" \/>\n<rect width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 17 2)\" fill=\"currentColor\" \/>\n<\/svg>\n",
+        "keywords": [],
+        "slug": "lazyblock\/casos-bloque",
+        "description": "",
+        "category": "widgets",
+        "category_label": "widgets",
+        "supports": {
+            "customClassName": true,
+            "anchor": false,
+            "align": [
+                "wide",
+                "full"
+            ],
+            "html": false,
+            "multiple": true,
+            "inserter": true
+        },
+        "ghostkit": {
+            "supports": {
+                "spacings": false,
+                "display": false,
+                "scrollReveal": false,
+                "frame": false,
+                "customCSS": false
+            }
+        },
+        "controls": {
+            "control_bc7b5e4dad": {
+                "type": "text",
+                "name": "categoria",
+                "default": "all",
+                "label": "Categoria",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "true",
+                "placeholder": "",
+                "characters_limit": ""
+            }
+        },
+        "code": {
+            "output_method": "php",
+            "editor_html": "",
+            "editor_callback": "",
+            "editor_css": "",
+            "frontend_html": "<div class=\"container mt-4\">\n<?php\n$args = array( \n  'posts_per_page' => -1,\n  'post_type' => 'casos',\n  'order' => 'DESC',\n  'tax_query' => [\n      [\n        'taxonomy' => 'cat_testimonio',\n        'field' => 'slug',\n        'terms' => $attributes['categoria']\n      ]\n    ]\n  ); \n$the_query = new WP_Query( $args );\nif ( $the_query->have_posts() ) : \n    while ( $the_query->have_posts() ) : $the_query->the_post();\n      ?> <div class=\"row case-card px-3 px-md-5 flex-column\">\n            <p class=\"block-title medium-font mt-3 mb-0\"><?php echo get_the_title()?><\/p>\n            <p class=\"case-subtitle medium-font\"><?php echo get_field('fecha',$post->ID)?>,  <?php\n                                $terms = get_the_terms( $post->ID , 'lugares' );\n                                if($terms) {\n                                    foreach ( $terms as $term ) {\n                                        echo $term->name;\n                                      }\n                                }\n                            ?><\/p>\n            <div class=\"card-body-fix\"><?php echo get_the_content()?><\/div>\n        <\/div>\n        <?php \n    endwhile;\nelse :\n    _e( 'No hay casos.', 'cels' );\nendif;\n?>\n<\/div>",
+            "frontend_callback": "",
+            "frontend_css": "",
+            "show_preview": "always",
+            "single_output": true
+        },
+        "condition": []
+    },
+    {
+        "id": 200,
+        "title": "Cebecera Factores",
+        "icon": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect opacity=\"0.25\" width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 22 7)\" fill=\"currentColor\" \/>\n<rect width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 17 2)\" fill=\"currentColor\" \/>\n<\/svg>\n",
+        "keywords": [],
+        "slug": "lazyblock\/cebecera-factores",
+        "description": "",
+        "category": "design",
+        "category_label": "design",
+        "supports": {
+            "customClassName": true,
+            "anchor": false,
+            "align": [
+                "wide",
+                "full"
+            ],
+            "html": false,
+            "multiple": true,
+            "inserter": true
+        },
+        "ghostkit": {
+            "supports": {
+                "spacings": false,
+                "display": false,
+                "scrollReveal": false,
+                "frame": false,
+                "customCSS": false
+            }
+        },
+        "controls": {
+            "control_f049d84995": {
+                "type": "text",
+                "name": "titulo",
+                "default": "factores que perpetúan el problema",
+                "label": "Titulo",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_1f2a044434": {
+                "type": "image",
+                "name": "icono-1",
+                "default": "",
+                "label": "Icono 1",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "true",
+                "preview_size": "full",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_4809924bb8": {
+                "type": "image",
+                "name": "icono-2",
+                "default": "",
+                "label": "Icono 2",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "preview_size": "full",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_fabb8f4a6c": {
+                "type": "text",
+                "name": "titulo-2",
+                "default": "la portación del arma",
+                "label": "Titulo 2",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_757b514386": {
+                "type": "textarea",
+                "name": "texto-2",
+                "default": "La portación del arma reglamentaria las 24 horas, amparada en el estado policial, pone en riesgo a las mujeres que conviven con funcionarios de seguridad.",
+                "label": "Texto 2",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_6af9a54cc0": {
+                "type": "text",
+                "name": "titulo-3",
+                "default": "el encubrimiento policial",
+                "label": "Titulo 3",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_bb5b0f4d2e": {
+                "type": "textarea",
+                "name": "texto-3",
+                "default": "Como en otros casos de uso ilegal de la fuerza policial, las prácticas de encubrimiento de estas muertes radican en que las policías controlan los primeros momentos de la escena del hecho.",
+                "label": "Texto 3",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            }
+        },
+        "code": {
+            "output_method": "php",
+            "editor_html": "",
+            "editor_callback": "",
+            "editor_css": "",
+            "frontend_html": "<div class=\"grey-bg py-5\">\r\n        <div class=\"container mt-4 d-block d-md-none\">\r\n            <h2 class=\"red-title text-center medium-font pt-4\"><?php echo $attributes['titulo']?><\/h2>\r\n            <div class=\"row p-3 position-relative align-items-center justify-content-center\">\r\n                <div class=\"icons-bar position-absolute\"><\/div>\r\n                <div class=\"col-4 text-center\">\r\n                    <img src=\"<?php echo $attributes['icono-1']['url']?>\" alt=\"\" class=\"img-fluid p-2\" \/>\r\n                <\/div>\r\n            <\/div>\r\n            <div class=\"mt-2 mt-md-4\">\r\n                <p class=\"block-title medium-font text-left\"><?php echo $attributes['titulo-2']?><\/p>\r\n                <p class=\"info light-font\"><?php echo $attributes['texto-2']?><\/p>\r\n            <\/div>\r\n            <div class=\"row p-3 position-relative align-items-center justify-content-center\">\r\n                <div class=\"icons-bar position-absolute\"><\/div>\r\n                <div class=\"col-4 text-center\">\r\n                    <img src=\"<?php echo $attributes['icono-2']['url']?>\" alt=\"\" class=\"img-fluid p-2\" \/>\r\n                <\/div>\r\n            <\/div>\r\n            <div class=\"mt-2 mt-md-4\">\r\n                <p class=\"block-title medium-font text-left\"><?php echo $attributes['titulo-3']?><\/p>\r\n                <p class=\"info light-font\"><?php echo $attributes['texto-3']?><\/p>\r\n            <\/div>\r\n        <\/div>\r\n        <div class=\"container mt-4 d-none d-md-block\">\r\n            <h2 class=\"red-title text-center medium-font pt-4\"><?php echo $attributes['titulo']?><\/h2>\r\n            <div class=\"row p-3 position-relative align-items-center justify-content-center\">\r\n                <div class=\"icons-bar position-absolute\"><\/div>\r\n                <div class=\"col-5 text-center\">\r\n                    <img src=\"<?php echo $attributes['icono-1']['url']?>\" alt=\"\" class=\"img-fluid p-2\" \/>\r\n                <\/div>\r\n                <div class=\"col-5 text-center\">\r\n                    <img src=\"<?php echo $attributes['icono-2']['url']?>\" alt=\"\" class=\"img-fluid p-2\" \/>\r\n                <\/div>\r\n            <\/div>\r\n            <div class=\"d-flex justify-content-center\">\r\n                <div class=\"col-5 px-3\">\r\n                    <p class=\"block-title medium-font text-left\"><?php echo $attributes['titulo-2']?><\/p>\r\n                    <p class=\"info light-font\"><?php echo $attributes['texto-2']?><\/p>\r\n                <\/div>\r\n                <div class=\"col-5 px-3\">\r\n                    <p class=\"block-title medium-font text-left\"><?php echo $attributes['titulo-3']?><\/p>\r\n                    <p class=\"info light-font\"><?php echo $attributes['texto-3']?><\/p>\r\n                <\/div>\r\n            <\/div>\r\n        <\/div>\r\n    <\/div>",
+            "frontend_callback": "",
+            "frontend_css": "",
+            "show_preview": "always",
+            "single_output": true
+        },
+        "condition": []
+    },
+    {
+        "id": 183,
+        "title": "Historias Interna",
+        "icon": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect opacity=\"0.25\" width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 22 7)\" fill=\"currentColor\" \/>\n<rect width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 17 2)\" fill=\"currentColor\" \/>\n<\/svg>\n",
+        "keywords": [],
+        "slug": "lazyblock\/historias-interna",
+        "description": "",
+        "category": "widgets",
+        "category_label": "widgets",
+        "supports": {
+            "customClassName": true,
+            "anchor": false,
+            "align": [
+                "wide",
+                "full"
+            ],
+            "html": false,
+            "multiple": true,
+            "inserter": true
+        },
+        "ghostkit": {
+            "supports": {
+                "spacings": false,
+                "display": false,
+                "scrollReveal": false,
+                "frame": false,
+                "customCSS": false
+            }
+        },
+        "controls": [],
+        "code": {
+            "output_method": "php",
+            "editor_html": "",
+            "editor_callback": "",
+            "editor_css": "",
+            "frontend_html": "<?php\n\/\/ Example argument that defines three posts per page. \n$args = array( 'posts_per_page' => 9, 'post_type' => 'historias', 'order' => 'DESC', 'paged' => get_query_var('paged') ? get_query_var('paged') : 1 ); \n \n\/\/ Variable to call WP_Query. \n$the_query = new WP_Query( $args ); ?>\n<div class=\"grid-cases mt-md-4\">\n  <div class=\"row grid-row mt-md-1\">\n<?php\nif ( $the_query->have_posts() ) : \n    while ( $the_query->have_posts() ) : $the_query->the_post();\n      echo '<div class=\"col-md-4 d-flex justify-content-center img-container mt-3 mt-md-1 p-0 \">';\n      echo '<a href=\"'.get_the_permalink().'\">\n                            <div class=\"overlay d-flex align-items-end\"\n                                style=\"background-image: url('. get_the_post_thumbnail_url($post->ID).')\">\n                                <p>'.get_the_title($post->ID).'<\/p>\n                            <\/div>\n                        <\/a>';\n      echo '<\/div>';\n    endwhile;\n    \/* reseteo de datos para evitar errores *\/\n\t\t $total_pages = $the_query->max_num_pages;\n\t\t if ($total_pages > 1){\n\n        $current_page = max(1, get_query_var('paged'));\n\t\techo '<div class=\"paginacion\">';\n        echo paginate_links(array(\n            'base' => get_pagenum_link(1) . '%_%',\n            'format' => '\/page\/%#%',\n            'current' => $current_page,\n            'total' => $total_pages,\n            'prev_text'    => __('« Anterior'),\n            'next_text'    => __('Siguiente »'),\n        ));\n\t\techo '<\/div>';\n    }    \n\t\t\twp_reset_postdata();\nelse :\n    _e( 'No hay hisotrias.', 'cels' );\nendif;\n?>\n<\/div>\n<\/div>",
+            "frontend_callback": "",
+            "frontend_css": "",
+            "show_preview": "always",
+            "single_output": true
+        },
+        "condition": []
+    },
+    {
+        "id": 172,
+        "title": "Historias Home",
+        "icon": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect opacity=\"0.25\" width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 22 7)\" fill=\"currentColor\" \/>\n<rect width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 17 2)\" fill=\"currentColor\" \/>\n<\/svg>\n",
+        "keywords": [],
+        "slug": "lazyblock\/historias-home",
+        "description": "",
+        "category": "widgets",
+        "category_label": "widgets",
+        "supports": {
+            "customClassName": true,
+            "anchor": false,
+            "align": [
+                "wide",
+                "full"
+            ],
+            "html": false,
+            "multiple": true,
+            "inserter": true
+        },
+        "ghostkit": {
+            "supports": {
+                "spacings": false,
+                "display": false,
+                "scrollReveal": false,
+                "frame": false,
+                "customCSS": false
+            }
+        },
+        "controls": [],
+        "code": {
+            "output_method": "php",
+            "editor_html": "",
+            "editor_callback": "",
+            "editor_css": "",
+            "frontend_html": "<?php\n\/\/ Example argument that defines three posts per page. \n$args = array( 'posts_per_page' => 9, 'post_type' => 'historias', 'order' => 'DESC' ); \n \n\/\/ Variable to call WP_Query. \n$the_query = new WP_Query( $args ); ?>\n<div class=\"grid-cases mt-md-4\">\n  <div class=\"row grid-row mt-md-1\">\n<?php\nif ( $the_query->have_posts() ) : \n    while ( $the_query->have_posts() ) : $the_query->the_post();\n      echo '<div class=\"col-md-4 d-flex justify-content-center img-container mt-3 mt-md-1 p-0 \">';\n      echo '<a href=\"'.get_the_permalink().'\">\n                            <div class=\"overlay d-flex align-items-end\"\n                                style=\"background-image: url('. get_the_post_thumbnail_url($post->ID).')\">\n                                <p>'.get_the_title($post->ID).'<\/p>\n                            <\/div>\n                        <\/a>';\n      echo '<\/div>';\n    endwhile;\nelse :\n    _e( 'Sorry, no posts matched your criteria.', 'textdomain' );\nendif;\n?>\n<\/div>\n <div class=\"grid-row ver-mas mt-md-3\">\n                <a href=\"\/historias\">\n                    <div class=\"bold-font d-flex align-items-center\">\n                        <p class=\"m-0 px-2\">Ver más historias<\/p>\n                        <i class=\"fas fa-caret-right\"><\/i>\n                    <\/div>\n                <\/a>\n            <\/div>\n<\/div>",
+            "frontend_callback": "",
+            "frontend_css": "",
+            "show_preview": "always",
+            "single_output": true
+        },
+        "condition": []
+    },
+    {
+        "id": 147,
+        "title": "Imagen con epigrafe",
+        "icon": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect opacity=\"0.25\" width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 22 7)\" fill=\"currentColor\" \/>\n<rect width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 17 2)\" fill=\"currentColor\" \/>\n<\/svg>\n",
+        "keywords": [],
+        "slug": "lazyblock\/imagen-con",
+        "description": "",
+        "category": "design",
+        "category_label": "design",
+        "supports": {
+            "customClassName": true,
+            "anchor": false,
+            "align": [
+                "wide",
+                "full"
+            ],
+            "html": false,
+            "multiple": true,
+            "inserter": true
+        },
+        "ghostkit": {
+            "supports": {
+                "spacings": false,
+                "display": false,
+                "scrollReveal": false,
+                "frame": false,
+                "customCSS": false
+            }
+        },
+        "controls": {
+            "control_117a7a45a4": {
+                "type": "image",
+                "name": "imagen",
+                "default": "",
+                "label": "Imagen",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "true",
+                "preview_size": "full",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_6fca9f4113": {
+                "type": "text",
+                "name": "titulo-epigrafe",
+                "default": "",
+                "label": "Titulo Epigrafe",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "true",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_62ab644430": {
+                "type": "textarea",
+                "name": "texto-epigrafe",
+                "default": "",
+                "label": "Texto Epigrafe",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "true",
+                "placeholder": "",
+                "characters_limit": ""
+            }
+        },
+        "code": {
+            "output_method": "php",
+            "editor_html": "",
+            "editor_callback": "",
+            "editor_css": "",
+            "frontend_html": " <div class=\"fullwidth-img position-relative\">\r\n        <img src=\"<?php echo $attributes['imagen']['url']?>\" alt=\"\" \/>\r\n        <div>\r\n            <small class=\"position-md-absolute d-block epigrafe mt-2 ml-1 ml-md-3 mb-2 mb-md-3\"><b><?php echo $attributes['titulo-epigrafe']?> <\/b><br \/>\r\n                <?php echo $attributes['texto-epigrafe']?>\r\n            <\/small>\r\n        <\/div>\r\n    <\/div>",
+            "frontend_callback": "",
+            "frontend_css": "",
+            "show_preview": "always",
+            "single_output": false
+        },
+        "condition": []
+    },
+    {
+        "id": 141,
+        "title": "Sección Metodología",
+        "icon": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect opacity=\"0.25\" width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 22 7)\" fill=\"currentColor\" \/>\n<rect width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 17 2)\" fill=\"currentColor\" \/>\n<\/svg>\n",
+        "keywords": [],
+        "slug": "lazyblock\/seccion-metodologia",
+        "description": "",
+        "category": "text",
+        "category_label": "text",
+        "supports": {
+            "customClassName": true,
+            "anchor": false,
+            "align": [
+                "wide",
+                "full"
+            ],
+            "html": false,
+            "multiple": true,
+            "inserter": true
+        },
+        "ghostkit": {
+            "supports": {
+                "spacings": false,
+                "display": false,
+                "scrollReveal": false,
+                "frame": false,
+                "customCSS": false
+            }
+        },
+        "controls": {
+            "control_35898c4d0b": {
+                "type": "text",
+                "name": "titulo",
+                "default": "metodología de la base",
+                "label": "Titulo",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_a64a1949bf": {
+                "type": "textarea",
+                "name": "texto",
+                "default": "Desde 1996 registramos en una base de datos los hechos de violencia en los que participan funcionaries de agencias estatales y privadas de seguridad. Recolectamos las publicaciones periodísticas sobre las muertes y lesiones causadas por integrantes de las fuerzas de seguridad y sobre las muertes de funcionaries y las lesiones que reciben. De esta forma, la información recolectada refiere a tres unidades de análisis: el hecho, les funcionaries involucrades y las víctimas. Pese a los posibles sesgos en la información, el sostenimiento de la metodología durante más de dos décadas permite presentar series y observar tendencias. Para la construcción de esta base de datos utilizamos como fuente los periódicos de mayor circulación: Clarín, La Nación, Página\/12 y Crónica. En forma complementaria incorporamos datos provenientes de diarios locales y causas judiciales. Realizamos un seguimiento diacrónico de los casos si aparecen noticias como, por ejemplo, la sentencia de un juicio. Procesamos los datos con SPSS Statistics y almacenamos copias de las noticias en formato PDF. Debido a sus fuentes de origen, los datos primarios son ilustrativos pero no exhaustivos porque la publicidad de los hechos está sujeta a decisiones periodísticas. Es posible que ocurra un subregistro de hechos violentos de menor gravedad que incida en una subcuantificación de les herides. A su vez, es esperable que siempre que la víctima sea un funcionarie la noticia aparezca y no así cuando no lo es. Lo mismo ocurre con la ubicación geográfica de los hechos: es más probable que sean publicados si ocurren en el AMBA. Finalmente, las torturas y los apremios ilegales rara vez son considerados publicables, salvo cuando involucran la desaparición, la muerte o lesiones graves. En el mismo sentido, la base de datos se actualiza con información posterior que también depende de los criterios periodísticos. Por ejemplo, si no se publica la muerte de alguien que había sido heride de gravedad se genera un sesgo ya que las muertes de funcionaries tienen mayor difusión. Por último, la generación de noticias periodísticas parte, en muchos casos, de los informes policiales, lo que puede generar que el relato inicial sea la versión de la fuerza de seguridad. Además, en algunos casos no se cuenta con la información completa de las víctimas particulares o de les funcionaries.",
+                "label": "Texto",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": "",
+                "multiline": "true"
+            }
+        },
+        "code": {
+            "output_method": "php",
+            "editor_html": "",
+            "editor_callback": "",
+            "editor_css": "",
+            "frontend_html": "<section class=\"metodologia mt-5\">\r\n    <div class=\"container py-3\">\r\n        <h2 class=\"red-title medium-font\"><?php echo $attributes['titulo']?><\/h2>\r\n        <p class=\"read-more info light-font mt-4\">\r\n           <?php echo $attributes['texto']?>\r\n        <\/p>\r\n    <\/div>\r\n<\/section>",
+            "frontend_callback": "",
+            "frontend_css": "",
+            "show_preview": "always",
+            "single_output": false
+        },
+        "condition": []
+    },
+    {
+        "id": 137,
+        "title": "Grafico Funcionaries Lugar",
+        "icon": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect opacity=\"0.25\" width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 22 7)\" fill=\"currentColor\" \/>\n<rect width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 17 2)\" fill=\"currentColor\" \/>\n<\/svg>\n",
+        "keywords": [],
+        "slug": "lazyblock\/grafico-funcionaries-lugar-bloque",
+        "description": "",
+        "category": "design",
+        "category_label": "design",
+        "supports": {
+            "customClassName": true,
+            "anchor": false,
+            "align": [
+                "wide",
+                "full"
+            ],
+            "html": false,
+            "multiple": true,
+            "inserter": true
+        },
+        "ghostkit": {
+            "supports": {
+                "spacings": false,
+                "display": false,
+                "scrollReveal": false,
+                "frame": false,
+                "customCSS": false
+            }
+        },
+        "controls": {
+            "control_6e098b4509": {
+                "type": "text",
+                "name": "titulo-del-grafico",
+                "default": "Funcionaries muertes en hechos de violencia, según el lugar de los hechos.",
+                "label": "Titulo del grafico",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_518a964eb9": {
+                "type": "text",
+                "name": "subtitulo-del-grafico",
+                "default": "Capital Federal y Conurbano Bonaerense.",
+                "label": "Subtitulo del grafico",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_36d8e84870": {
+                "type": "textarea",
+                "name": "texto-bajo-mapa",
+                "default": "Al igual que ocurre con les particulares, la amplia mayoría de les funcionaries murió en el Conurbano. En el último año esta proporción superó el 95%. Casi la totalidad de estos hechos ocurrieron cuando le funcionarie estaba fuera de servicio. Esto explica el traslado territorial de los patrones de letalidad policial: se trata de funcionaries que viven en el Gran Buenos Aires y desempeñan sus funciones en la Ciudad de Buenos Aires.",
+                "label": "Texto Bajo mapa",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            }
+        },
+        "code": {
+            "output_method": "php",
+            "editor_html": "",
+            "editor_callback": "",
+            "editor_css": "",
+            "frontend_html": "<div class=\"block\">\n  <p class=\"block-title medium-font mb-0\"><?php echo $attributes['titulo-del-grafico']?><\/p>\n  <?php if($attributes['subtitulo-del-grafico']): ?>\n  <p class=\"block-title medium-font mb-5 gray\"><?php echo $attributes['subtitulo-del-grafico']?><\/p>\n  <?php endif; ?>\n<div class=\"graphic d-flex\" ng-controller=\"FuncionariosMapController as homeCtrl\">\n    <div class=\"col-12 col-lg-6 p-0\">\n        <div ng-show=\"loading\">\n            <progress class=\"loader-mail pure-material-progress-linear\" \/>\n        <\/div>\n\n        <div class='chart map'>\n            <div id=\"funcionarios-map-graph\"><\/div>\n            <p class=\"map-detail d-lg-none\">\n                <span ng-show=\"!loading && currentH.length == 0\"> No hay resultado para los valores\n                    elegidos. Por favor, elegí otro filtro. <\/span>\n                <span ng-show=\"validation3()\"> Elegí un lugar del\n                    mapa para explorar. <\/span>\n                <span ng-show=\"validation4()\">\n\n                    {{currentVictims}} víctimas en\n                    <span class=\"city\"> {{currentCity}} <\/span> <span class=\"number\"> {{currentPercentage | number:2}} %<\/small>\n                    <\/span>\n            <\/p>\n        <\/div>\n    <\/div>\n    <div class=\"options d-none d-lg-block col-4\">\n        <div class='chart map'>\n            <div id=\"funcionarios-map-graph\"><\/div>\n            <p class=\"map-detail\">\n                <span ng-show=\"!loading && currentH.length == 0\"> No hay resultado para los valores\n                    elegidos. Por favor, elegí otro filtro. <\/span>\n                <span ng-show=\"validation3()\"> Elegí un lugar del\n                    mapa para explorar. <\/span>\n                <span ng-show=\"validation4()\">\n\n                    {{currentVictims}} víctimas en\n                    <span class=\"city\"> {{currentCity}} <\/span> - <span class=\"number\"> {{currentPercentage | number:2}} %<\/small>\n                    <\/span>\n            <\/p>\n        <\/div>\n    <\/div>\n    <div class=\"options d-none d-lg-block col-2\">\n        <div class=\"form-group\">\n            <label class=\"col-sm-12 control-label\">Filtros<\/label>\n            <div class=\"col-sm-12\">\n                <div class=\"input-group\">\n                    <ui-select ng-model=\"homeCtrl.ap.selected\" theme=\"selectize\" on-select=\"onActiveLugar($item,$model)\">\n                        <ui-select-match placeholder=\"Lugar\">\n                            {{$select.selected.key}}<\/ui-select-match>\n                        <ui-select-choices repeat=\"item in lugares | filter: $select.search\">\n                            <div ng-bind-html=\"item.key | highlight: $select.search\">\n                            <\/div>\n                            <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                        <\/ui-select-choices>\n                    <\/ui-select>\n                    <span class=\"input-group-btn\">\n                        <button type=\"button\" ng-click=\"homeCtrl.ap.selected = undefined; onActiveLugar();\" class=\"btn btn-default\">\n                            <i class=\"fas fa-trash\"><\/i>\n                        <\/button>\n                    <\/span>\n                <\/div>\n                <div class=\"input-group\">\n                    <ui-select ng-model=\"homeCtrl.ag.selected\" theme=\"selectize\" on-select=\"onActiveGenero($item,$model,$select)\">\n                        <ui-select-match placeholder=\"Género\">\n                            {{$select.selected.key}}<\/ui-select-match>\n                        <ui-select-choices repeat=\"item in genero | filter: $select.search\">\n                            <div ng-bind-html=\"item.key | highlight: $select.search\">\n                            <\/div>\n                            <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                        <\/ui-select-choices>\n                    <\/ui-select>\n                    <span class=\"input-group-btn\">\n                        <button type=\"button\" ng-click=\"homeCtrl.ag.selected = undefined; onActiveGenero();\" class=\"btn btn-default\">\n                            <i class=\"fas fa-trash\"><\/i>\n                        <\/button>\n                    <\/span>\n                <\/div>\n                <div class=\"input-group\">\n                    <ui-select ng-model=\"homeCtrl.ai.selected\" theme=\"selectize\" on-select=\"onActiveInstitucion($item,$model)\">\n                        <ui-select-match placeholder=\"Institución\">\n                            {{$select.selected.key}}<\/ui-select-match>\n                        <ui-select-choices repeat=\"item in institucion | filter: $select.search\">\n                            <div ng-bind-html=\"item.key | highlight: $select.search\">\n                            <\/div>\n                            <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                        <\/ui-select-choices>\n                    <\/ui-select>\n                    <span class=\"input-group-btn\">\n                        <button type=\"button\" ng-click=\"homeCtrl.ai.selected = undefined; onActiveInstitucion();\" class=\"btn btn-default\">\n                            <i class=\"fas fa-trash\"><\/i>\n                        <\/button>\n                    <\/span>\n                <\/div>\n                <div class=\"input-group\">\n                    <ui-select ng-model=\"homeCtrl.ay.selected\" theme=\"selectize\" on-select=\"onActiveYear($item,$model)\">\n                        <ui-select-match placeholder=\"Año\">{{$select.selected.key}}\n                        <\/ui-select-match>\n                        <ui-select-choices repeat=\"item in years | filter: $select.search\">\n                            <div ng-bind-html=\"item.key | highlight: $select.search\">\n                            <\/div>\n                            <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                        <\/ui-select-choices>\n                    <\/ui-select>\n                    <span class=\"input-group-btn\">\n                        <button type=\"button\" ng-click=\"homeCtrl.ay.selected = undefined; onActiveYear();\" class=\"btn btn-default\">\n                            <i class=\"fas fa-trash\"><\/i>\n                        <\/button>\n                    <\/span>\n                <\/div>\n                <span class=\"input-group-btn c\">\n                    <button ng-click=\"exportCSV()\" type=\"button\" class=\"btn btn-danger \">Exportar\n                        CSV<\/button>\n                <\/span>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/div>\n<p class=\"info light-font mt-4\"><?php echo $attributes['texto-bajo-mapa']?><\/p>\n<\/div>",
+            "frontend_callback": "",
+            "frontend_css": "",
+            "show_preview": "always",
+            "single_output": true
+        },
+        "condition": []
+    },
+    {
+        "id": 134,
+        "title": "Grafico Violencia según edad",
+        "icon": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect opacity=\"0.25\" width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 22 7)\" fill=\"currentColor\" \/>\n<rect width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 17 2)\" fill=\"currentColor\" \/>\n<\/svg>\n",
+        "keywords": [],
+        "slug": "lazyblock\/grafico-violencia-edad-bloque",
+        "description": "",
+        "category": "design",
+        "category_label": "design",
+        "supports": {
+            "customClassName": true,
+            "anchor": false,
+            "align": [
+                "wide",
+                "full"
+            ],
+            "html": false,
+            "multiple": true,
+            "inserter": true
+        },
+        "ghostkit": {
+            "supports": {
+                "spacings": false,
+                "display": false,
+                "scrollReveal": false,
+                "frame": false,
+                "customCSS": false
+            }
+        },
+        "controls": {
+            "control_6e098b4509": {
+                "type": "text",
+                "name": "titulo-del-grafico",
+                "default": "Funcionaries muertes en hechos de violencia, según edad.",
+                "label": "Titulo del grafico",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_518a964eb9": {
+                "type": "text",
+                "name": "subtitulo-del-grafico",
+                "default": "Capital Federal y Conurbano Bonaerense.",
+                "label": "Subtitulo del grafico",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_98a8394537": {
+                "type": "text",
+                "name": "sub-texto",
+                "default": "Se muestran las edades que pudieron ser documentadas.",
+                "label": "Sub Texto",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_7d18bc4f71": {
+                "type": "textarea",
+                "name": "texto-bajo-grafico",
+                "default": "A diferencia de lo que ocurre con los particulares, la distribución por edad de los funcionarios varones que murieron no está tan concentrada en un grupo etario. En el caso de las funcionarias la mayoría sí se ubica en la franja más joven, mientras que para las mujeres particulares esta distribución es más pareja entre los rangos de edad. Así, un 71% de las funcionarias muertas de las que se disponen datos era menor de 30 años. En cambio, los hombres menores de 30 años ocupan un 25% del total de los funcionarios muertos, mientras que un tercio de los fallecidos tenía entre 31 y 41 años.",
+                "label": "Texto Bajo Grafico",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            }
+        },
+        "code": {
+            "output_method": "php",
+            "editor_html": "",
+            "editor_callback": "",
+            "editor_css": "",
+            "frontend_html": "<div class=\"block\">\n  <p class=\"block-title medium-font mb-0\"><?php echo $attributes['titulo-del-grafico']?><\/p>\n  <?php if($attributes['subtitulo-del-grafico']): ?>\n  <p class=\"block-title medium-font mb-5 gray\"><?php echo $attributes['subtitulo-del-grafico']?><\/p>\n  <?php endif; ?>\n  <?php if($attributes['sub-texto']):?>\n  <p class=\"mb-md-5\"><?php echo $attributes['sub-texto']?><\/p>\n  <?php endif;?>\n<div ng-controller=\"FuncionariosMController as homeCtrl\">\n    <div>\n        <div ng-show=\"loading\">\n            <progress class=\"loader-mail pure-material-progress-linear\" \/>\n        <\/div>\n        <h5 ng-show=\"!loading && no_results == 0\"> No hay resultado para los valores\n            elegidos. Por favor, elegí otro filtro. <\/h5>\n    <\/div>\n    <div class=\"graphic d-flex\">\n        <div class=\"col-12 col-lg-10\">\n            <div class='chart'>\n                <div id='func-edad-chart'><\/div>\n            <\/div>\n        <\/div>\n        <div class=\"options d-none d-lg-block col-2\">\n            <div class=\"form-group\">\n                <label class=\"col-sm-12 control-label\">Filtros<\/label>\n                <div class=\"col-sm-12\">\n                    <div class=\"input-group\">\n                        <ui-select ng-model=\"homeCtrl.ap.selected\" theme=\"selectize\" on-select=\"onActiveProvincia($item,$model)\">\n                            <ui-select-match placeholder=\"Lugar\">\n                                {{$select.selected.key}}<\/ui-select-match>\n                            <ui-select-choices repeat=\"item in provincias | filter: $select.search\">\n                                <div ng-bind-html=\"item.key | highlight: $select.search\">\n                                <\/div>\n                                <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                            <\/ui-select-choices>\n                        <\/ui-select>\n                        <span class=\"input-group-btn\">\n                            <button type=\"button\" ng-click=\"homeCtrl.ap.selected = undefined; onActiveProvincia();\" class=\"btn btn-default\">\n                                <i class=\"fas fa-trash\"><\/i>\n                            <\/button>\n                        <\/span>\n                    <\/div>\n                    <div class=\"input-group\">\n                        <ui-select ng-model=\"homeCtrl.ag.selected\" theme=\"selectize\" on-select=\"onActiveGenero($item,$model,$select)\">\n                            <ui-select-match placeholder=\"Género\">\n                                {{$select.selected.key}}<\/ui-select-match>\n                            <ui-select-choices repeat=\"item in genero | filter: $select.search\">\n                                <div ng-bind-html=\"item.key | highlight: $select.search\">\n                                <\/div>\n                                <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                            <\/ui-select-choices>\n                        <\/ui-select>\n                        <span class=\"input-group-btn\">\n                            <button type=\"button\" ng-click=\"homeCtrl.ag.selected = undefined; onActiveGenero();\" class=\"btn btn-default\">\n                                <i class=\"fas fa-trash\"><\/i>\n                            <\/button>\n                        <\/span>\n                    <\/div>\n                    <div class=\"input-group\">\n                        <ui-select ng-model=\"homeCtrl.ai.selected\" theme=\"selectize\" on-select=\"onActiveInstitucion($item,$model)\">\n                            <ui-select-match placeholder=\"Institución\">\n                                {{$select.selected.key}}<\/ui-select-match>\n                            <ui-select-choices repeat=\"item in institucion | filter: $select.search\">\n                                <div ng-bind-html=\"item.key | highlight: $select.search\">\n                                <\/div>\n                                <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                            <\/ui-select-choices>\n                        <\/ui-select>\n                        <span class=\"input-group-btn\">\n                            <button type=\"button\" ng-click=\"homeCtrl.ai.selected = undefined; onActiveInstitucion();\" class=\"btn btn-default\">\n                                <i class=\"fas fa-trash\"><\/i>\n                            <\/button>\n                        <\/span>\n                    <\/div>\n                    <div class=\"input-group\">\n                        <ui-select ng-model=\"homeCtrl.ay.selected\" theme=\"selectize\" on-select=\"onActiveYear($item,$model)\">\n                            <ui-select-match placeholder=\"Año\">{{$select.selected.key}}\n                            <\/ui-select-match>\n                            <ui-select-choices repeat=\"item in years | filter: $select.search\">\n                                <div ng-bind-html=\"item.key | highlight: $select.search\">\n                                <\/div>\n                                <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                            <\/ui-select-choices>\n                        <\/ui-select>\n                        <span class=\"input-group-btn\">\n                            <button type=\"button\" ng-click=\"homeCtrl.ay.selected = undefined; onActiveYear();\" class=\"btn btn-default\">\n                                <i class=\"fas fa-trash\"><\/i>\n                            <\/button>\n                        <\/span>\n                    <\/div>\n                    <span class=\"input-group-btn c\">\n                        <button ng-click=\"exportCSV()\" type=\"button\" class=\"btn btn-danger \">Exportar\n                            CSV<\/button>\n                    <\/span>\n                <\/div>\n            <\/div>\n        <\/div>\n    <\/div>\n    <p class=\"info light-font mt-4 my-md-5\"><?php echo $attributes['texto-bajo-grafico']?><\/p>\n<\/div>\n<\/div>",
+            "frontend_callback": "",
+            "frontend_css": "",
+            "show_preview": "always",
+            "single_output": true
+        },
+        "condition": []
+    },
+    {
+        "id": 131,
+        "title": "Grafico Funcionaries Muertes según institución",
+        "icon": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect opacity=\"0.25\" width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 22 7)\" fill=\"currentColor\" \/>\n<rect width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 17 2)\" fill=\"currentColor\" \/>\n<\/svg>\n",
+        "keywords": [],
+        "slug": "lazyblock\/grafico-institucion-bloque",
+        "description": "",
+        "category": "design",
+        "category_label": "design",
+        "supports": {
+            "customClassName": true,
+            "anchor": false,
+            "align": [
+                "wide",
+                "full"
+            ],
+            "html": false,
+            "multiple": true,
+            "inserter": true
+        },
+        "ghostkit": {
+            "supports": {
+                "spacings": false,
+                "display": false,
+                "scrollReveal": false,
+                "frame": false,
+                "customCSS": false
+            }
+        },
+        "controls": {
+            "control_0f38f043aa": {
+                "type": "text",
+                "name": "titulo-rojo",
+                "default": "funcionaries",
+                "label": "Titulo Rojo",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_6e098b4509": {
+                "type": "text",
+                "name": "titulo-del-grafico",
+                "default": "Funcionaries muertes en hechos de violencia, según institución.",
+                "label": "Titulo del grafico",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_518a964eb9": {
+                "type": "text",
+                "name": "subtitulo-del-grafico",
+                "default": "Capital Federal y Conurbano Bonaerense.",
+                "label": "Subtitulo del grafico",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_b03b5f43e5": {
+                "type": "textarea",
+                "name": "texto-bajo-grafico",
+                "default": "Más del 40% de les funcionaries muertes son de la Policía Federal, mientras que un porcentaje apenas menor eran de las policías de la provincia de Buenos Aires (Bonaerense y locales). Al igual que les particulares, casi la mitad de les funcionaries muertes son de las policías de la provincia de Buenos Aires (Bonaerense y locales), mientras que un tercio pertenecen a la Policía de la Ciudad. A pesar del despliegue territorial de Gendarmería y Prefectura en la CABA y en el Conurbano, les funcionaries de las fuerzas federales que fallecieron no representan una proporción significativa.",
+                "label": "Texto Bajo Grafico",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            }
+        },
+        "code": {
+            "output_method": "php",
+            "editor_html": "",
+            "editor_callback": "",
+            "editor_css": "",
+            "frontend_html": "<h2 class=\"red-title medium-font mb-5\"><?php echo $attributes['titulo-rojo']?><\/h2>\n<div class=\"block\">\n  <p class=\"block-title medium-font mb-0\"><?php echo $attributes['titulo-del-grafico']?><\/p>\n  <?php if($attributes['subtitulo-del-grafico']): ?>\n  <p class=\"block-title medium-font mb-5 gray\"><?php echo $attributes['subtitulo-del-grafico']?><\/p>\n  <?php endif; ?>\n<div ng-controller=\"FuncionariosIController as homeCtrl\">\n    <div>\n        <div ng-show=\"loading\">\n            <progress class=\"loader-mail pure-material-progress-linear\" \/>\n        <\/div>\n        <h5 ng-show=\"!loading && currentH.length == 0\"> No hay resultado para los valores\n            elegidos. Por favor, elegí otro filtro. <\/h5>\n    <\/div>\n    <div class=\"graphic d-flex\">\n\n        <div class=\"col-12 col-lg-10\">\n            <div class='chart'>\n                <div id='funcionarios-in-chart'><\/div>\n            <\/div>\n        <\/div>\n        <div class=\"options d-none d-lg-block col-2\">\n            <div class=\"form-group\">\n                <label class=\"col-sm-12 control-label\">Filtros<\/label>\n                <div class=\"col-sm-12\">\n                    <div class=\"input-group\">\n                        <ui-select ng-model=\"homeCtrl.ap.selected\" theme=\"selectize\" on-select=\"onActiveProvincia($item,$model)\">\n                            <ui-select-match placeholder=\"Lugar\">\n                                {{$select.selected.key}}<\/ui-select-match>\n                            <ui-select-choices repeat=\"item in provincias | filter: $select.search\">\n                                <div ng-bind-html=\"item.key | highlight: $select.search\">\n                                <\/div>\n                                <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                            <\/ui-select-choices>\n                        <\/ui-select>\n                        <span class=\"input-group-btn\">\n                            <button type=\"button\" ng-click=\"homeCtrl.ap.selected = undefined; onActiveProvincia();\" class=\"btn btn-default\">\n                                <i class=\"fas fa-trash\"><\/i>\n                            <\/button>\n                        <\/span>\n                    <\/div>\n                    <div class=\"input-group\">\n                        <ui-select ng-model=\"homeCtrl.ag.selected\" theme=\"selectize\" on-select=\"onActiveGenero($item,$model,$select)\">\n                            <ui-select-match placeholder=\"Género\">\n                                {{$select.selected.key}}<\/ui-select-match>\n                            <ui-select-choices repeat=\"item in genero | filter: $select.search\">\n                                <div ng-bind-html=\"item.key | highlight: $select.search\">\n                                <\/div>\n                                <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                            <\/ui-select-choices>\n                        <\/ui-select>\n                        <span class=\"input-group-btn\">\n                            <button type=\"button\" ng-click=\"homeCtrl.ag.selected = undefined; onActiveGenero();\" class=\"btn btn-default\">\n                                <i class=\"fas fa-trash\"><\/i>\n                            <\/button>\n                        <\/span>\n                    <\/div>\n                    <div class=\"input-group\">\n                        <ui-select ng-model=\"homeCtrl.ai.selected\" theme=\"selectize\" on-select=\"onActiveInstitucion($item,$model)\">\n                            <ui-select-match placeholder=\"Institución\">\n                                {{$select.selected.key}}<\/ui-select-match>\n                            <ui-select-choices repeat=\"item in institucion | filter: $select.search\">\n                                <div ng-bind-html=\"item.key | highlight: $select.search\">\n                                <\/div>\n                                <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                            <\/ui-select-choices>\n                        <\/ui-select>\n                        <span class=\"input-group-btn\">\n                            <button type=\"button\" ng-click=\"homeCtrl.ai.selected = undefined; onActiveInstitucion();\" class=\"btn btn-default\">\n                                <i class=\"fas fa-trash\"><\/i>\n                            <\/button>\n                        <\/span>\n                    <\/div>\n                    <div class=\"input-group\">\n                        <ui-select ng-model=\"homeCtrl.ay.selected\" theme=\"selectize\" on-select=\"onActiveYear($item,$model)\">\n                            <ui-select-match placeholder=\"Año\">{{$select.selected.key}}\n                            <\/ui-select-match>\n                            <ui-select-choices repeat=\"item in years | filter: $select.search\">\n                                <div ng-bind-html=\"item.key | highlight: $select.search\">\n                                <\/div>\n                                <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                            <\/ui-select-choices>\n                        <\/ui-select>\n                        <span class=\"input-group-btn\">\n                            <button type=\"button\" ng-click=\"homeCtrl.ay.selected = undefined; onActiveYear();\" class=\"btn btn-default\">\n                                <i class=\"fas fa-trash\"><\/i>\n                            <\/button>\n                        <\/span>\n                    <\/div>\n                    <span class=\"input-group-btn c\">\n                        <button ng-click=\"exportCSV()\" type=\"button\" class=\"btn btn-danger \">Exportar\n                            CSV<\/button>\n                    <\/span>\n                <\/div>\n            <\/div>\n        <\/div>\n    <\/div>\n    <p class=\"info light-font mt-4 my-md-5\">\n      <?php echo $attributes['texto-bajo-grafico']?>\n    <\/p>\n<\/div>\n<\/div>",
+            "frontend_callback": "",
+            "frontend_css": "",
+            "show_preview": "always",
+            "single_output": true
+        },
+        "condition": []
+    },
+    {
+        "id": 122,
+        "title": "Grafico Lugar",
+        "icon": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect opacity=\"0.25\" width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 22 7)\" fill=\"currentColor\" \/>\n<rect width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 17 2)\" fill=\"currentColor\" \/>\n<\/svg>\n",
+        "keywords": [],
+        "slug": "lazyblock\/grafico-lugar-bloque",
+        "description": "",
+        "category": "design",
+        "category_label": "design",
+        "supports": {
+            "customClassName": true,
+            "anchor": false,
+            "align": [
+                "wide",
+                "full"
+            ],
+            "html": false,
+            "multiple": true,
+            "inserter": true
+        },
+        "ghostkit": {
+            "supports": {
+                "spacings": false,
+                "display": false,
+                "scrollReveal": false,
+                "frame": false,
+                "customCSS": false
+            }
+        },
+        "controls": {
+            "control_6e098b4509": {
+                "type": "text",
+                "name": "titulo-del-grafico",
+                "default": "Particulares muertes por funcionaries de fuerzas de seguridad, según el lugar de los hechos.",
+                "label": "Titulo del grafico",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_518a964eb9": {
+                "type": "text",
+                "name": "subtitulo-del-grafico",
+                "default": "Capital Federal y Conurbano Bonaerense.",
+                "label": "Subtitulo del grafico",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            }
+        },
+        "code": {
+            "output_method": "php",
+            "editor_html": "",
+            "editor_callback": "",
+            "editor_css": "",
+            "frontend_html": "<div class=\"block\">\n  <p class=\"block-title medium-font mb-0\"><?php echo $attributes['titulo-del-grafico']?><\/p>\n  <?php if($attributes['subtitulo-del-grafico']): ?>\n  <p class=\"block-title medium-font mb-5 gray\"><?php echo $attributes['subtitulo-del-grafico']?><\/p>\n  <?php endif; ?>\n<div class=\"graphic d-flex\" ng-controller=\"CivilesMapController as homeCtrl\">\n                            <div class=\"col-12 col-lg-6 p-0\">\n                                <div ng-show=\"loading\">\n                                    <progress class=\"loader-mail pure-material-progress-linear\" \/>\n                                <\/div>\n\n\n                                <div class='chart map'>\n                                    <div id=\"civiles-map-graph\"><\/div>\n                                    <p class=\"d-lg-none map-detail\">\n                                        <span ng-show=\"!loading && currentH.length == 0\"> No hay resultado para los valores\n                                            elegidos. Por favor, elegí otro filtro. <\/span>\n                                        <span ng-show=\"validation1()\"> Elegí un lugar del\n                                            mapa para explorar. <\/span>\n                                        <span ng-show=\"validation2()\">\n\n                                            {{currentVictims}} personas en\n                                            <span class=\"city\"> {{currentCity}} <\/span> <span class=\"number\"> {{currentPercentage | number:2}} %<\/small>\n                                            <\/span>\n                                    <\/p>\n                                <\/div>\n                            <\/div>\n                            <div class=\"d-none d-lg-block col-4\">\n                                <p class=\"map-detail\">\n                                    <span ng-show=\"!loading && currentH.length == 0\"> No hay resultado para los valores\n                                        elegidos. Por favor, elegí otro filtro. <\/span>\n                                    <span ng-show=\"validation1()\"> Elegí un lugar del\n                                        mapa para explorar. <\/span>\n                                    <span ng-show=\"validation2()\">\n\n                                        {{currentVictims}} personas en\n                                        <span class=\"city\"> {{currentCity}} <\/span> <span class=\"number\"> {{currentPercentage | number:2}} %<\/small>\n                                        <\/span>\n                                <\/p>\n                            <\/div>\n                            <div class=\"options d-none d-lg-block col-2\">\n                                <div class=\"form-group\">\n                                    <label class=\"col-sm-12 control-label\">Filtros<\/label>\n                                    <div class=\"col-sm-12\">\n                                        <div class=\"input-group\">\n                                            <ui-select ng-model=\"homeCtrl.ap.selected\" theme=\"selectize\" on-select=\"onActiveLugar($item,$model)\">\n                                                <ui-select-match placeholder=\"Lugar\">{{$select.selected.key}}\n                                                <\/ui-select-match>\n                                                <ui-select-choices repeat=\"item in lugares | filter: $select.search\">\n                                                    <div ng-bind-html=\"item.key | highlight: $select.search\"><\/div>\n                                                    <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                                                <\/ui-select-choices>\n                                            <\/ui-select>\n                                            <span class=\"input-group-btn\">\n                                                <button type=\"button\" ng-click=\"homeCtrl.ap.selected = undefined; onActiveLugar();\" class=\"btn btn-default\">\n                                                    <i class=\"fas fa-trash\"><\/i>\n                                                <\/button>\n                                            <\/span>\n                                        <\/div>\n                                        <div class=\"input-group\">\n                                            <ui-select ng-model=\"homeCtrl.ag.selected\" theme=\"selectize\" on-select=\"onActiveGenero($item,$model,$select)\">\n                                                <ui-select-match placeholder=\"Género\">{{$select.selected.key}}\n                                                <\/ui-select-match>\n                                                <ui-select-choices repeat=\"item in genero | filter: $select.search\">\n                                                    <div ng-bind-html=\"item.key | highlight: $select.search\"><\/div>\n                                                    <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                                                <\/ui-select-choices>\n                                            <\/ui-select>\n                                            <span class=\"input-group-btn\">\n                                                <button type=\"button\" ng-click=\"homeCtrl.ag.selected = undefined; onActiveGenero();\" class=\"btn btn-default\">\n                                                    <i class=\"fas fa-trash\"><\/i>\n                                                <\/button>\n                                            <\/span>\n                                        <\/div>\n                                        <div class=\"input-group\">\n                                            <ui-select ng-model=\"homeCtrl.ai.selected\" theme=\"selectize\" on-select=\"onActiveInstitucion($item,$model)\">\n                                                <ui-select-match placeholder=\"Institución\">{{$select.selected.key}}\n                                                <\/ui-select-match>\n                                                <ui-select-choices repeat=\"item in institucion | filter: $select.search\">\n                                                    <div ng-bind-html=\"item.key | highlight: $select.search\"><\/div>\n                                                    <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                                                <\/ui-select-choices>\n                                            <\/ui-select>\n                                            <span class=\"input-group-btn\">\n                                                <button type=\"button\" ng-click=\"homeCtrl.ai.selected = undefined; onActiveInstitucion();\" class=\"btn btn-default\">\n                                                    <i class=\"fas fa-trash\"><\/i>\n                                                <\/button>\n                                            <\/span>\n                                        <\/div>\n                                        <div class=\"input-group\">\n                                            <ui-select ng-model=\"homeCtrl.ay.selected\" theme=\"selectize\" on-select=\"onActiveYear($item,$model)\">\n                                                <ui-select-match placeholder=\"Año\">{{$select.selected.key}}\n                                                <\/ui-select-match>\n                                                <ui-select-choices repeat=\"item in years | filter: $select.search\">\n                                                    <div ng-bind-html=\"item.key | highlight: $select.search\"><\/div>\n                                                    <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                                                <\/ui-select-choices>\n                                            <\/ui-select>\n                                            <span class=\"input-group-btn\">\n                                                <button type=\"button\" ng-click=\"homeCtrl.ay.selected = undefined; onActiveYear();\" class=\"btn btn-default\">\n                                                    <i class=\"fas fa-trash\"><\/i>\n                                                <\/button>\n                                            <\/span>\n                                        <\/div>\n                                        <span class=\"input-group-btn c\">\n                                            <button ng-click=\"exportCSV()\" type=\"button\" class=\"btn btn-danger \">Exportar CSV<\/button>\n                                        <\/span>\n                                    <\/div>\n                                <\/div>\n                            <\/div>\n                        <\/div>\n<\/div>",
+            "frontend_callback": "",
+            "frontend_css": "",
+            "show_preview": "always",
+            "single_output": true
+        },
+        "condition": []
+    },
+    {
+        "id": 116,
+        "title": "Grafico Fuerzas de Seguridad",
+        "icon": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect opacity=\"0.25\" width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 22 7)\" fill=\"currentColor\" \/>\n<rect width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 17 2)\" fill=\"currentColor\" \/>\n<\/svg>\n",
+        "keywords": [],
+        "slug": "lazyblock\/grafico-civiles-bloque",
+        "description": "",
+        "category": "design",
+        "category_label": "design",
+        "supports": {
+            "customClassName": true,
+            "anchor": false,
+            "align": [
+                "wide",
+                "full"
+            ],
+            "html": false,
+            "multiple": true,
+            "inserter": true
+        },
+        "ghostkit": {
+            "supports": {
+                "spacings": false,
+                "display": false,
+                "scrollReveal": false,
+                "frame": false,
+                "customCSS": false
+            }
+        },
+        "controls": {
+            "control_6e098b4509": {
+                "type": "text",
+                "name": "titulo-del-grafico",
+                "default": "Particulares muertes por funcionaries de fuerzas de seguridad, según edad.",
+                "label": "Titulo del grafico",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_98a8394537": {
+                "type": "text",
+                "name": "sub-texto",
+                "default": "Se muestran las edades que pudieron ser documentadas.",
+                "label": "Sub Texto",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_518a964eb9": {
+                "type": "text",
+                "name": "subtitulo-del-grafico",
+                "default": "Capital Federal y Conurbano Bonaerense.",
+                "label": "Subtitulo del grafico",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            }
+        },
+        "code": {
+            "output_method": "php",
+            "editor_html": "",
+            "editor_callback": "",
+            "editor_css": "",
+            "frontend_html": "<div class=\"block\">\n  <p class=\"block-title medium-font mb-0\"><?php echo $attributes['titulo-del-grafico']?><\/p>\n  <?php if($attributes['subtitulo-del-grafico']): ?>\n  <p class=\"block-title medium-font mb-5 gray\"><?php echo $attributes['subtitulo-del-grafico']?><\/p>\n  <?php endif; ?>\n  <?php if($attributes['sub-texto']):?>\n  <p class=\"mb-md-5\"><?php echo $attributes['sub-texto']?><\/p>\n  <?php endif;?>\n<div ng-controller=\"FuncionariosController as homeCtrl\">\n    <div>\n        <div ng-show=\"loading\">\n            <progress class=\"loader-mail pure-material-progress-linear\" \/>\n        <\/div>\n        <h5 ng-show=\"!loading && no_results == 0\"> No hay resultado para los valores elegidos.\n            Por favor, elegí otro filtro. <\/h5>\n    <\/div>\n    <div class=\"graphic d-flex\">\n        <div class=\"col-12 col-lg-10\">\n            <div class='chart'>\n                <div id='func-inst-chart'><\/div>\n            <\/div>\n        <\/div>\n        <div class=\"options d-none d-lg-block col-2\">\n            <div class=\"form-group\">\n                <label class=\"col-sm-12 control-label\">Filtros<\/label>\n                <div class=\"col-sm-12\">\n                    <div class=\"input-group\">\n                        <ui-select ng-model=\"homeCtrl.ap.selected\" theme=\"selectize\" on-select=\"onActiveProvincia($item,$model)\">\n                            <ui-select-match placeholder=\"Lugar\">{{$select.selected.key}}\n                            <\/ui-select-match>\n                            <ui-select-choices repeat=\"item in provincias | filter: $select.search\">\n                                <div ng-bind-html=\"item.key | highlight: $select.search\"><\/div>\n                                <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                            <\/ui-select-choices>\n                        <\/ui-select>\n                        <span class=\"input-group-btn\">\n                            <button type=\"button\" ng-click=\"homeCtrl.ap.selected = undefined; onActiveProvincia();\" class=\"btn btn-default\">\n                                <i class=\"fas fa-trash\"><\/i>\n                            <\/button>\n                        <\/span>\n                    <\/div>\n                    <div class=\"input-group\">\n                        <ui-select ng-model=\"homeCtrl.ag.selected\" theme=\"selectize\" on-select=\"onActiveGenero($item,$model,$select)\">\n                            <ui-select-match placeholder=\"Género\">{{$select.selected.key}}\n                            <\/ui-select-match>\n                            <ui-select-choices repeat=\"item in genero | filter: $select.search\">\n                                <div ng-bind-html=\"item.key | highlight: $select.search\"><\/div>\n                                <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                            <\/ui-select-choices>\n                        <\/ui-select>\n                        <span class=\"input-group-btn\">\n                            <button type=\"button\" ng-click=\"homeCtrl.ag.selected = undefined; onActiveGenero();\" class=\"btn btn-default\">\n                                <i class=\"fas fa-trash\"><\/i>\n                            <\/button>\n                        <\/span>\n                    <\/div>\n                    <div class=\"input-group\">\n                        <ui-select ng-model=\"homeCtrl.ai.selected\" theme=\"selectize\" on-select=\"onActiveInstitucion($item,$model)\">\n                            <ui-select-match placeholder=\"Institución\">{{$select.selected.key}}\n                            <\/ui-select-match>\n                            <ui-select-choices repeat=\"item in institucion | filter: $select.search\">\n                                <div ng-bind-html=\"item.key | highlight: $select.search\"><\/div>\n                                <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                            <\/ui-select-choices>\n                        <\/ui-select>\n                        <span class=\"input-group-btn\">\n                            <button type=\"button\" ng-click=\"homeCtrl.ai.selected = undefined; onActiveInstitucion();\" class=\"btn btn-default\">\n                                <i class=\"fas fa-trash\"><\/i>\n                            <\/button>\n                        <\/span>\n                    <\/div>\n                    <div class=\"input-group\">\n                        <ui-select ng-model=\"homeCtrl.ay.selected\" theme=\"selectize\" on-select=\"onActiveYear($item,$model)\">\n                            <ui-select-match placeholder=\"Año\">{{$select.selected.key}}\n                            <\/ui-select-match>\n                            <ui-select-choices repeat=\"item in years | filter: $select.search\">\n                                <div ng-bind-html=\"item.key | highlight: $select.search\"><\/div>\n                                <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                            <\/ui-select-choices>\n                        <\/ui-select>\n                        <span class=\"input-group-btn\">\n                            <button type=\"button\" ng-click=\"homeCtrl.ay.selected = undefined; onActiveYear();\" class=\"btn btn-default\">\n                                <i class=\"fas fa-trash\"><\/i>\n                            <\/button>\n                        <\/span>\n                    <\/div>\n                    <span class=\"input-group-btn c\">\n                        <button ng-click=\"exportCSV()\" type=\"button\" class=\"btn btn-danger \">Exportar CSV<\/button>\n                    <\/span>\n                <\/div>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/div>\n<\/div>",
+            "frontend_callback": "",
+            "frontend_css": "",
+            "show_preview": "always",
+            "single_output": true
+        },
+        "condition": []
+    },
+    {
+        "id": 111,
+        "title": "Grafico Particulares",
+        "icon": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect opacity=\"0.25\" width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 22 7)\" fill=\"currentColor\" \/>\n<rect width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 17 2)\" fill=\"currentColor\" \/>\n<\/svg>\n",
+        "keywords": [],
+        "slug": "lazyblock\/grafico-particulares-bloque",
+        "description": "",
+        "category": "design",
+        "category_label": "design",
+        "supports": {
+            "customClassName": true,
+            "anchor": false,
+            "align": [
+                "wide",
+                "full"
+            ],
+            "html": false,
+            "multiple": true,
+            "inserter": true
+        },
+        "ghostkit": {
+            "supports": {
+                "spacings": false,
+                "display": false,
+                "scrollReveal": false,
+                "frame": false,
+                "customCSS": false
+            }
+        },
+        "controls": {
+            "control_0f38f043aa": {
+                "type": "text",
+                "name": "titulo-rojo",
+                "default": "particulares",
+                "label": "Titulo Rojo",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_6e098b4509": {
+                "type": "text",
+                "name": "titulo-del-grafico",
+                "default": "Particulares muertes por funcionaries de fuerzas de seguridad, según institución del funcionarie interviniente.",
+                "label": "Titulo del grafico",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_518a964eb9": {
+                "type": "text",
+                "name": "subtitulo-del-grafico",
+                "default": "Capital Federal y Conurbano Bonaerense.",
+                "label": "Subtitulo del grafico",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_b03b5f43e5": {
+                "type": "textarea",
+                "name": "texto-bajo-grafico",
+                "default": "Salvo durante algunos períodos, históricamente la Policía Bonaerense concentra la mayor cantidad de hechos de violencia letal. En los últimos años la creación de policías locales profundizó esta tendencia. Al mismo tiempo, a fines de 2016, la puesta en funcionamiento de la Policía de la Ciudad, que recibió a gran parte del personal de la Policía Federal, hizo que las muertes que acumulaba la Policía Federal se repartieran entre dos fuerzas. Actualmente, las cuatro fuerzas federales (Gendarmería, Prefectura Naval, Policía Federal y Policía de Seguridad Aeroportuaria) son responsables de alrededor de un tercio de las muertes registradas en Capital Federal y Conurbano.",
+                "label": "Texto Bajo Grafico",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            }
+        },
+        "code": {
+            "output_method": "php",
+            "editor_html": "",
+            "editor_callback": "",
+            "editor_css": "",
+            "frontend_html": "<div class=\"sub-group mt-4\">\n<h2 class=\"red-title medium-font mb-5\"><?php echo $attributes['titulo-rojo']?><\/h2>\n<div class=\"block\">\n  <p class=\"block-title medium-font mb-0\"><?php echo $attributes['titulo-del-grafico']?><\/p>\n  <?php if($attributes['subtitulo-del-grafico']): ?>\n  <p class=\"block-title medium-font mb-5 gray\"><?php echo $attributes['subtitulo-del-grafico']?><\/p>\n  <?php endif; ?>\n <div ng-controller=\"CivilesController as homeCtrl\">\n    <div>\n        <div ng-show=\"loading\">\n            <progress class=\"loader-mail pure-material-progress-linear\" \/>\n        <\/div>\n        <h5 ng-show=\"!loading && currentH.length == 0\"> No hay resultado para los valores elegidos. Por\n            favor, elegí otro filtro. <\/h5>\n    <\/div>\n    <div class=\"graphic d-flex\">\n        <div class=\"col-12 col-lg-10\">\n            <div class='chart'>\n                <div id='civiles-inst-chart'><\/div>\n            <\/div>\n        <\/div>\n        <div class=\"options d-none d-lg-block col-2\">\n            <div class=\"form-group\">\n                <label class=\"col-sm-12 control-label\">Filtros<\/label>\n                <div class=\"col-sm-12\">\n                    <div class=\"input-group\">\n                        <ui-select ng-model=\"homeCtrl.ap.selected\" theme=\"selectize\" on-select=\"onActiveProvincia($item,$model)\">\n                            <ui-select-match placeholder=\"Lugar\">{{$select.selected.key}}\n                            <\/ui-select-match>\n                            <ui-select-choices repeat=\"item in provincias | filter: $select.search\">\n                                <div ng-bind-html=\"item.key | highlight: $select.search\"><\/div>\n                                <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                            <\/ui-select-choices>\n                        <\/ui-select>\n                        <span class=\"input-group-btn\">\n                            <button type=\"button\" ng-click=\"homeCtrl.ap.selected = undefined; onActiveProvincia();\" class=\"btn btn-default\">\n                                <i class=\"fas fa-trash\"><\/i>\n                            <\/button>\n                        <\/span>\n                    <\/div>\n                    <div class=\"input-group\">\n                        <ui-select ng-model=\"homeCtrl.ag.selected\" theme=\"selectize\" on-select=\"onActiveGenero($item,$model,$select)\">\n                            <ui-select-match placeholder=\"Género\">{{$select.selected.key}}\n                            <\/ui-select-match>\n                            <ui-select-choices repeat=\"item in genero | filter: $select.search\">\n                                <div ng-bind-html=\"item.key | highlight: $select.search\"><\/div>\n                                <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                            <\/ui-select-choices>\n                        <\/ui-select>\n                        <span class=\"input-group-btn\">\n                            <button type=\"button\" ng-click=\"homeCtrl.ag.selected = undefined; onActiveGenero();\" class=\"btn btn-default\">\n                                <i class=\"fas fa-trash\"><\/i>\n                            <\/button>\n                        <\/span>\n                    <\/div>\n                    <div class=\"input-group\">\n                        <ui-select ng-model=\"homeCtrl.ai.selected\" theme=\"selectize\" on-select=\"onActiveInstitucion($item,$model)\">\n                            <ui-select-match placeholder=\"Institución\">{{$select.selected.key}}\n                            <\/ui-select-match>\n                            <ui-select-choices repeat=\"item in institucion | filter: $select.search\">\n                                <div ng-bind-html=\"item.key | highlight: $select.search\"><\/div>\n                                <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                            <\/ui-select-choices>\n                        <\/ui-select>\n                        <span class=\"input-group-btn\">\n                            <button type=\"button\" ng-click=\"homeCtrl.ai.selected = undefined; onActiveInstitucion();\" class=\"btn btn-default\">\n                                <i class=\"fas fa-trash\"><\/i>\n                            <\/button>\n                        <\/span>\n                    <\/div>\n                    <div class=\"input-group\">\n                        <ui-select ng-model=\"homeCtrl.ay.selected\" theme=\"selectize\" on-select=\"onActiveYear($item,$model)\">\n                            <ui-select-match placeholder=\"Año\">{{$select.selected.key}}\n                            <\/ui-select-match>\n                            <ui-select-choices repeat=\"item in years | filter: $select.search\">\n                                <div ng-bind-html=\"item.key | highlight: $select.search\"><\/div>\n                                <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                            <\/ui-select-choices>\n                        <\/ui-select>\n                        <span class=\"input-group-btn\">\n                            <button type=\"button\" ng-click=\"homeCtrl.ay.selected = undefined; onActiveYear();\" class=\"btn btn-default\">\n                                <i class=\"fas fa-trash\"><\/i>\n                            <\/button>\n                        <\/span>\n                    <\/div>\n                    <span class=\"input-group-btn c\">\n                        <button ng-click=\"exportCSV()\" type=\"button\" class=\"btn btn-danger \">Exportar\n                            CSV<\/button>\n                    <\/span>\n                <\/div>\n            <\/div>\n        <\/div>\n    <\/div>\n    <p class=\"info light-font mt-2 mb-5 my-md-5\">\n      <?php echo $attributes['texto-bajo-grafico']?>\n    <\/p>\n<\/div>\n<\/div>\n<\/div>",
+            "frontend_callback": "",
+            "frontend_css": "",
+            "show_preview": "always",
+            "single_output": true
+        },
+        "condition": []
+    },
+    {
+        "id": 61,
+        "title": "Contenedor Sección",
+        "icon": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect opacity=\"0.25\" width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 22 7)\" fill=\"currentColor\" \/>\n<rect width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 17 2)\" fill=\"currentColor\" \/>\n<\/svg>\n",
+        "keywords": [],
+        "slug": "lazyblock\/contenedor-seccion",
+        "description": "",
+        "category": "design",
+        "category_label": "design",
+        "supports": {
+            "customClassName": true,
+            "anchor": true,
+            "align": [
+                "wide",
+                "full"
+            ],
+            "html": false,
+            "multiple": true,
+            "inserter": true
+        },
+        "ghostkit": {
+            "supports": {
+                "spacings": false,
+                "display": false,
+                "scrollReveal": false,
+                "frame": false,
+                "customCSS": false
+            }
+        },
+        "controls": {
+            "control_992aed4436": {
+                "type": "inner_blocks",
+                "name": "contenedor",
+                "default": "",
+                "label": "Contenedor",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_e89b8648cc": {
+                "type": "text",
+                "name": "clase-contenedor",
+                "default": "container",
+                "label": "Clase Contenedor",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            }
+        },
+        "code": {
+            "output_method": "php",
+            "editor_html": "",
+            "editor_callback": "",
+            "editor_css": "",
+            "frontend_html": "<div class=\"<?php echo $attributes['clase-contenedor']?>\">\n  <?php echo $attributes['contenedor']?>\n<\/div>",
+            "frontend_callback": "",
+            "frontend_css": "",
+            "show_preview": "always",
+            "single_output": false
+        },
+        "condition": []
+    },
+    {
+        "id": 46,
+        "title": "Grafico Datos Estadísticos",
+        "icon": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect opacity=\"0.25\" width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 22 7)\" fill=\"currentColor\" \/>\n<rect width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 17 2)\" fill=\"currentColor\" \/>\n<\/svg>\n",
+        "keywords": [],
+        "slug": "lazyblock\/grafico-bloque",
+        "description": "",
+        "category": "design",
+        "category_label": "design",
+        "supports": {
+            "customClassName": true,
+            "anchor": false,
+            "align": [
+                "wide",
+                "full"
+            ],
+            "html": false,
+            "multiple": true,
+            "inserter": true
+        },
+        "ghostkit": {
+            "supports": {
+                "spacings": false,
+                "display": false,
+                "scrollReveal": false,
+                "frame": false,
+                "customCSS": false
+            }
+        },
+        "controls": {
+            "control_6e098b4509": {
+                "type": "text",
+                "name": "titulo-del-grafico",
+                "default": "Personas muertas en hechos de violencia con participación de fuerzas de seguridad.",
+                "label": "Titulo del grafico",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_518a964eb9": {
+                "type": "text",
+                "name": "subtitulo-del-grafico",
+                "default": "Capital Federal y Conurbano Bonaerense.",
+                "label": "Subtitulo del grafico",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            }
+        },
+        "code": {
+            "output_method": "php",
+            "editor_html": "",
+            "editor_callback": "",
+            "editor_css": "",
+            "frontend_html": "<div class=\"block\">\n  <p class=\"block-title medium-font mb-0\"><?php echo $attributes['titulo-del-grafico']?><\/p>\n  <?php if($attributes['subtitulo-del-grafico']): ?>\n  <p class=\"block-title medium-font mb-5 gray\"><?php echo $attributes['subtitulo-del-grafico']?><\/p>\n  <?php endif; ?>\n  <div ng-controller=\"HomeController as homeCtrl\">\n    <div>\n        <div ng-show=\"loading\">\n            <progress class=\"loader-mail pure-material-progress-linear\" \/>\n        <\/div>\n        <h5 ng-show=\"!loading && currentH.length == 0\"> No hay resultado para los valores elegidos. Por\n            favor, elegí otro filtro. <\/h5>\n    <\/div>\n    <div class=\"graphic d-flex flex-column flex-md-row\">\n        <div class=\"col-12 col-lg-10\">\n            <div class='chart'>\n                <div id='chart'><\/div>\n            <\/div>\n        <\/div>\n        <div class=\"options d-none d-lg-block col-2\">\n            <div class=\"form-group\">\n                <label class=\"col-sm-12 control-label\">Filtros<\/label>\n                <div class=\"col-sm-12\">\n                    <div class=\"input-group\">\n                        <ui-select ng-model=\"homeCtrl.ap.selected\" theme=\"selectize\" on-select=\"onActiveProvincia($item,$model)\">\n                            <ui-select-match placeholder=\"Lugar\">{{$select.selected.key}}<\/ui-select-match>\n                            <ui-select-choices repeat=\"item in provincias | filter: $select.search\">\n                                <div ng-bind-html=\"item.key | highlight: $select.search\"><\/div>\n                                <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                            <\/ui-select-choices>\n                        <\/ui-select>\n                        <span class=\"input-group-btn\">\n                            <button type=\"button\" ng-click=\"homeCtrl.ap.selected = undefined; onActiveProvincia();\" class=\"btn btn-default\">\n                                <i class=\"fas fa-trash\"><\/i>\n                            <\/button>\n                        <\/span>\n                    <\/div>\n                    <div class=\"input-group\">\n                        <ui-select ng-model=\"homeCtrl.ag.selected\" theme=\"selectize\" on-select=\"onActiveGenero($item,$model,$select)\">\n                            <ui-select-match placeholder=\"Género\">{{$select.selected.key}}<\/ui-select-match>\n                            <ui-select-choices repeat=\"item in genero | filter: $select.search\">\n                                <div ng-bind-html=\"item.key | highlight: $select.search\"><\/div>\n                                <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                            <\/ui-select-choices>\n                        <\/ui-select>\n                        <span class=\"input-group-btn\">\n                            <button type=\"button\" ng-click=\"homeCtrl.ag.selected = undefined; onActiveGenero();\" class=\"btn btn-default\">\n                                <i class=\"fas fa-trash\"><\/i>\n                            <\/button>\n                        <\/span>\n                    <\/div>\n                    <div class=\"input-group\">\n                        <ui-select ng-model=\"homeCtrl.ai.selected\" theme=\"selectize\" on-select=\"onActiveInstitucion($item,$model)\">\n                            <ui-select-match placeholder=\"Institución\">{{$select.selected.key}}\n                            <\/ui-select-match>\n                            <ui-select-choices repeat=\"item in institucion | filter: $select.search\">\n                                <div ng-bind-html=\"item.key | highlight: $select.search\"><\/div>\n                                <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                            <\/ui-select-choices>\n                        <\/ui-select>\n                        <span class=\"input-group-btn\">\n                            <button type=\"button\" ng-click=\"homeCtrl.ai.selected = undefined; onActiveInstitucion();\" class=\"btn btn-default\">\n                                <i class=\"fas fa-trash\"><\/i>\n                            <\/button>\n                        <\/span>\n                    <\/div>\n                    <div class=\"input-group\">\n                        <ui-select ng-model=\"homeCtrl.ay.selected\" theme=\"selectize\" on-select=\"onActiveYear($item,$model)\">\n                            <ui-select-match placeholder=\"Año\">{{$select.selected.key}}<\/ui-select-match>\n                            <ui-select-choices repeat=\"item in years | filter: $select.search\">\n                                <div ng-bind-html=\"item.key | highlight: $select.search\"><\/div>\n                                <small ng-bind-html=\"item.key | highlight: $select.search\"><\/small>\n                            <\/ui-select-choices>\n                        <\/ui-select>\n                        <span class=\"input-group-btn\">\n                            <button type=\"button\" ng-click=\"homeCtrl.ay.selected = undefined; onActiveYear();\" class=\"btn btn-default\">\n                                <i class=\"fas fa-trash\"><\/i>\n                            <\/button>\n                        <\/span>\n                    <\/div>\n                    <span class=\"input-group-btn c\">\n                        <button ng-click=\"exportCSV()\" type=\"button\" class=\"btn btn-danger \">Exportar\n                            CSV<\/button>\n                    <\/span>\n                <\/div>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/div>\n<\/div>",
+            "frontend_callback": "",
+            "frontend_css": "",
+            "show_preview": "always",
+            "single_output": true
+        },
+        "condition": []
+    },
+    {
+        "id": 38,
+        "title": "Secciones",
+        "icon": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect opacity=\"0.25\" width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 22 7)\" fill=\"currentColor\" \/>\n<rect width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 17 2)\" fill=\"currentColor\" \/>\n<\/svg>\n",
+        "keywords": [],
+        "slug": "lazyblock\/secciones",
+        "description": "",
+        "category": "text",
+        "category_label": "text",
+        "supports": {
+            "customClassName": true,
+            "anchor": false,
+            "align": [
+                "wide",
+                "full"
+            ],
+            "html": false,
+            "multiple": true,
+            "inserter": true
+        },
+        "ghostkit": {
+            "supports": {
+                "spacings": false,
+                "display": false,
+                "scrollReveal": false,
+                "frame": false,
+                "customCSS": false
+            }
+        },
+        "controls": {
+            "control_c7b8694255": {
+                "type": "inner_blocks",
+                "name": "contenido",
+                "default": "",
+                "label": "Cotenido",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_77eb1345ce": {
+                "type": "text",
+                "name": "clase-de-seccion",
+                "default": "mt-5",
+                "label": "Clase de sección",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            }
+        },
+        "code": {
+            "output_method": "php",
+            "editor_html": "",
+            "editor_callback": "",
+            "editor_css": "",
+            "frontend_html": "<section class=\"<?php echo $attributes['clase-de-seccion'] ?>\">\n     <?php echo $attributes['contenido'] ?>\n<\/section>",
+            "frontend_callback": "",
+            "frontend_css": "",
+            "show_preview": "always",
+            "single_output": true
+        },
+        "condition": []
+    },
+    {
+        "id": 32,
+        "title": "Titulo de Sección",
+        "icon": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect opacity=\"0.25\" width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 22 7)\" fill=\"currentColor\" \/>\n<rect width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 17 2)\" fill=\"currentColor\" \/>\n<\/svg>\n",
+        "keywords": [],
+        "slug": "lazyblock\/titulo-de-seccion",
+        "description": "",
+        "category": "text",
+        "category_label": "text",
+        "supports": {
+            "customClassName": false,
+            "anchor": false,
+            "align": [
+                "wide",
+                "full"
+            ],
+            "html": false,
+            "multiple": true,
+            "inserter": true
+        },
+        "ghostkit": {
+            "supports": {
+                "spacings": false,
+                "display": false,
+                "scrollReveal": false,
+                "frame": false,
+                "customCSS": false
+            }
+        },
+        "controls": {
+            "control_09caa14b85": {
+                "type": "text",
+                "name": "titulo",
+                "default": "",
+                "label": "Titulo",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_b23beb483f": {
+                "type": "text",
+                "name": "ancla",
+                "default": "",
+                "label": "Ancla",
+                "help": "Para el menú",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "required": "false",
+                "placeholder": "",
+                "characters_limit": ""
+            }
+        },
+        "code": {
+            "output_method": "html",
+            "editor_html": "",
+            "editor_callback": "",
+            "editor_css": "",
+            "frontend_html": "<a class=\"anchor-scroll\" id=\"!#{{ ancla }}\"><\/a>\n<h1 class=\"section-title bold-font\">{{ titulo }}<\/h1>",
+            "frontend_callback": "",
+            "frontend_css": "",
+            "show_preview": "always",
+            "single_output": false
+        },
+        "condition": []
+    }
+]
