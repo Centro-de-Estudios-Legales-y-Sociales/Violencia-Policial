@@ -1,0 +1,3 @@
+El archivo cels.zip es el theme en sí, se instala como cualqueir theme de WP.
+La carpeta pluginsrequeridos contiene 2 plugins necesarios para el correcto funcionamiento del sitio.
+Una vez instalado estos plugins, en la carpeta datosBloquesyCampos, se encuentra 2 archivos json, que son para importar en los respectivos plugins para la configuración de base.
