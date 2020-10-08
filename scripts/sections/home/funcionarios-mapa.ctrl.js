@@ -8,13 +8,6 @@ angular
           $scope.mapContainer = '#funcionarios-map-graph';
           medService.subscribe($scope);
 
-          $scope.validation3 = function() {
-            return $scope.loading && $scope.currentH > 0 && $scope.currentVictims == 0;
-          };
-
-          $scope.validation4 = function() {
-            return $scope.currentH > 0 && $scope.currentVictims > 0;
-          }
         
           $scope.onActiveInstitucion = function(i,m){
             $scope.activeInstitucion = m;
