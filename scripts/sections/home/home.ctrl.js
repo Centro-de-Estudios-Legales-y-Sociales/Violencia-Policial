@@ -208,7 +208,7 @@ angular
               $scope.provincias = medService.provincias;
               $scope.genero = medService.genero;
               $scope.institucion = medService.institucion;
-              console.log(medService.institucion);
+//              console.log(medService.institucion);
               $scope.years = medService.years;
 
               $scope.address = {};  

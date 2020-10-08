@@ -68,7 +68,7 @@ p {
   color: gray !important;
 }
 
-.light-font, body.single p {
+.light-font, body.single p, .case-card .card-body-fix {
   font-family: "Roboto Light";
 }
 
@@ -1189,7 +1189,7 @@ svg {
     letter-spacing: -2px;
   }
 
-  .info, body.single p {
+  .info, body.single p, .case-card .card-body-fix {
     font-size: 20px;
   }
 
