@@ -2,13 +2,8 @@
     <div class="fullwidth-img position-relative">
         <img src="assets/img/murga.jpg" alt="" />
         <div>
-            <small class="d-block epigrafe mt-2 ml-1 ml-md-3 mb-2 mb-md-3"><b>Emiliana Miguelez</b>&nbsp;02/02/2016 Bajo Flores.
-                <br />Integrantes de la Murga "Los auténticos reyes del ritmo"
-                se juntan en su barrio días después de que efectivos de Gendarmería dispararan contra ellxs mientras la banda
-                estaba ensayando.
-                Hubo once heridxs entre ellxs varixs niñxs. Florencia Torre recibió 16 disparos de bala de goma mientras
-                protegía a su hijo de 8 años
-                que también bailaba en el grupo.
+            <small class="d-block epigrafe mt-2 ml-1 ml-md-3 mb-2 mb-md-3">Foto: Emiliana Miguelez</br>
+              02/02/2016, represión a Los Auténticos Reyes del Ritmo
             </small>
         </div>
     </div>
@@ -34,7 +29,7 @@
             mecanismos de rendición de cuentas y de instancias de formación y evaluación profundizan el problema.
         </p>
     </div>
-    <div class="container mt-4"><!-- 
+    <div class="container mt-4"><!--
         <h2 class="red-title text-center medium-font pt-4">casos relacionados</h2> -->
         <div class="row case-card px-3 px-md-5 flex-column">
             <p class="block-title medium-font mt-3 mb-0">Sebastián Britos</p>

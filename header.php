@@ -45,7 +45,7 @@
         <img src="/assets/img/arrow.png" alt="" class="img-fluid" />
     </div>
     <div class="epigrafe d-none d-md-block">
-        <small>Mauricio Centurión</small>
+        <small>Foto: Mauricio Centurión</small>
     </div>
     <div class="redes d-block d-md-none">
         <ul class="d-flex flex-row p-0">
@@ -61,5 +61,5 @@
     </div>
 </section>
 <div class="container epigrafe d-block d-md-none">
-    <small><b>Mauricio Centurión</b></small>
+    <small><b>Foto: Mauricio Centurión</b></small>
 </div>

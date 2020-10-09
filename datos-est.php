@@ -116,13 +116,8 @@
                 </div>
             </div>
         </div>
-        <p class="info light-font mt-2 mb-5 my-md-5">En los últimos años, la cantidad de personas muertas en hechos de
-            violencia
-            con
-            participación de fuerzas de seguridad descendió levemente. En cuanto a les particulares, esta tendencia
-            comenzó luego de un pico en 2014. Respecto de les funcionaries, hace más de quince años que el número se
-            mantiene relativamente estable. En ambos grupos persiste un núcleo de muertes que el Estado no pudo
-            reducir.
+        <p class="info light-font mt-2 mb-5 my-md-5">
+          En los últimos años, la cantidad de personas muertas en hechos de violencia con participación de fuerzas de seguridad descendió levemente. En cuanto a les particulares, esta tendencia comenzó luego de un pico en 2014. Respecto de les funcionaries, hace más de quince años que el número se mantiene relativamente estable. De acuerdo con los datos hasta agosto de 2020, en ambos grupos persiste un núcleo de muertes que el Estado no pudo reducir.
         </p>
     </div>
     <div class="container">
@@ -374,8 +369,8 @@
                                 <div ng-show="loading">
                                     <progress class="loader-mail pure-material-progress-linear" />
                                 </div>
-                               
-                                
+
+
                                 <div class='chart map'>
                                     <div id="civiles-map-graph"></div>
                                     <p  class="d-lg-none map-detail" >
@@ -383,10 +378,10 @@
                                     elegidos. Por favor, elegí otro filtro. </span>
                                 <span ng-show="!loading && currentH.length > 0 && currentVictims == 0"> Elegí un lugar del
                                     mapa para explorar. </span>
-                                    <span ng-show="currentH.length > 0 && currentVictims > 0"> 
-
-                                    {{currentVictims}} personas en
-                                    <span class="city"> {{currentCity}} </span> <span class="number"> {{currentPercentage | number:2}} %</small>
+                                    <span class="grid-container" ng-show="currentH.length > 0 && currentVictims > 0">
+                                      <span class="total">{{currentVictims}}</span>
+                                      <span class="city">personas en</br> {{currentCity}}</br></span>
+                                      <span class="number"> {{currentPercentage | number:2}} %</span>
                                     </span>
                                     </p>
                                 </div>
@@ -397,11 +392,11 @@
                                     elegidos. Por favor, elegí otro filtro. </span>
                                 <span ng-show="!loading && currentH.length > 0 && currentVictims == 0"> Elegí un lugar del
                                     mapa para explorar. </span>
-                                    <span ng-show="currentH.length > 0 && currentVictims > 0"> 
-
-                                    {{currentVictims}} personas en
-                                    <span class="city"> {{currentCity}} </span> <span class="number"> {{currentPercentage | number:2}} %</small>
-                                    </span>
+                                    <span class="grid-container" ng-show="currentH.length > 0 && currentVictims > 0">
+                                      <span class="total">{{currentVictims}}</span>
+                                      <span class="city">personas en</br>{{currentCity}}</br></span>
+                                      <span class="number">{{currentPercentage | number:2}}%</span>
+                                  </span>
                                     </p>
                             </div>
                             <div class="options d-none d-lg-block col-2">
@@ -616,17 +611,7 @@
                     </div>
                 </div>
                 <p class="info light-font mt-4 my-md-5">
-                    Más del 40% de les funcionaries muertes son de la Policía Federal, mientras que un porcentaje apenas menor eran de las policías de la provincia de Buenos Aires (Bonaerense y locales).
-                    Al igual que les particulares, casi la mitad
-                    de les funcionaries muertes
-                    son
-                    de las policías de la provincia de Buenos Aires (Bonaerense y locales), mientras
-                    que un tercio
-                    pertenecen a la Policía de la Ciudad. A pesar del despliegue territorial de
-                    Gendarmería y Prefectura
-                    en la CABA y en el Conurbano, les funcionaries de las fuerzas federales que
-                    fallecieron no
-                    representan una proporción significativa.
+                    Más del 40% de les funcionaries muertes son de la Policía Federal, mientras que un porcentaje apenas menor eran de las policías de la provincia de Buenos Aires (Bonaerense y locales). A pesar del despliegue territorial de Gendarmería y Prefectura en la CABA y en el Conurbano, les funcionaries de las fuerzas federales que fallecieron no representan una proporción significativa.
                 </p>
             </div>
             <div class="block">
@@ -764,7 +749,7 @@
                         <div ng-show="loading">
                             <progress class="loader-mail pure-material-progress-linear" />
                         </div>
-                       
+
                         <div class='chart map'>
                             <div id="funcionarios-map-graph"></div>
                             <p  class="map-detail d-lg-none" >
@@ -772,10 +757,10 @@
                                     elegidos. Por favor, elegí otro filtro. </span>
                                 <span ng-show="!loading && currentH.length > 0 && currentVictims == 0"> Elegí un lugar del
                                     mapa para explorar. </span>
-                                    <span ng-show="currentH.length > 0 && currentVictims > 0"> 
-
-                                    {{currentVictims}} víctimas en
-                                    <span class="city"> {{currentCity}} </span> <span class="number"> {{currentPercentage | number:2}} %</small>
+                                    <span class="grid-container" ng-show="currentH.length > 0 && currentVictims > 0">
+                                      <span class="total">{{currentVictims}}</span>
+                                      <span class="city">víctimas en</br>{{currentCity}}</br></span>
+                                      <span class="number"> {{currentPercentage | number:2}} %</span>
                                     </span>
                                     </p>
                         </div>
@@ -788,10 +773,10 @@
                                     elegidos. Por favor, elegí otro filtro. </span>
                                 <span ng-show="!loading && currentH.length > 0 && currentVictims == 0"> Elegí un lugar del
                                     mapa para explorar. </span>
-                                    <span ng-show="currentH.length > 0 && currentVictims > 0"> 
-
-                                    {{currentVictims}} víctimas en
-                                    <span class="city"> {{currentCity}} </span> - <span class="number"> {{currentPercentage | number:2}} %</small>
+                                    <span class="grid-container" ng-show="currentH.length > 0 && currentVictims > 0">
+                                      <span class="total">{{currentVictims}}</span>
+                                      <span class="city">víctimas en</br>{{currentCity}}</br></span>
+                                      <span class="number"> {{currentPercentage | number:2}} %</span>
                                     </span>
                                     </p>
                         </div>

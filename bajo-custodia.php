@@ -2,13 +2,8 @@
     <div class="fullwidth-img position-relative">
         <img src="assets/img/escena.jpg" alt="" />
         <div>
-            <small class="position-md-absolute d-block epigrafe mt-2 ml-1 ml-md-3 mb-2 mb-md-3"><b>Claudio Santiesteban</b>&nbsp;31-07-2015<br />
-                Un efectivo de la PFA mata a un supuesto delincuente frente a una sucursal del Banco Galicia en la avenida Boedo
-                50 esquina con avenida Rivadavia.
-                En la versión oficial un hombre solitario ingresó al local, adonde llegó en una camioneta de propiedad de su
-                madre,
-                para robar dos cajas de atención al público cuando fue sorprendido por un policía que circunstancialmente
-                transitaba por el lugar.
+            <small class="position-md-absolute d-block epigrafe mt-2 ml-1 ml-md-3 mb-2 mb-md-3">Foto: Claudio Santiesteban</br>
+              31-07-2015
             </small>
         </div>
     </div>
@@ -57,7 +52,7 @@
             </div>
         </div>
     </div>
-    <div class="orange-bg py-5 mt-5"><!-- 
+    <div class="orange-bg py-5 mt-5"><!--
         <h2 class="red-title text-center medium-font py-4">casos relacionados</h2> -->
         <div class="container p-0">
             <div class="row case-card mx-3 mx-md-5 flex-column">

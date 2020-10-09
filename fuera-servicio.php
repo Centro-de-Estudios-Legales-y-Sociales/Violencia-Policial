@@ -2,10 +2,8 @@
     <div class="fullwidth-img position-relative">
         <img src="assets/img/detencion.jpg" alt="" />
         <div>
-            <small class="position-md-absolute d-block epigrafe mt-2 ml-1 ml-md-3 mb-2 mb-md-3"><b>Claudio Santiesteban</b>&nbsp;28-06-2017<br />
-                Transeúntes violentamente detenidos por la Policía de la Ciudad en la calle Lima entre Alsina y Moreno una hora
-                después de haber reprimido
-                y disuelto una protesta piquetera y olla popular frente al Ministerio de Desarrollo Social.
+            <small class="position-md-absolute d-block epigrafe mt-2 ml-1 ml-md-3 mb-2 mb-md-3">Foto: Claudio Santiesteban<br />
+              28-06-2017, participantes de una protesta detenidos por la Policía de la Ciudad
             </small>
         </div>
     </div>
@@ -37,7 +35,7 @@
             forman parte de las fuerzas de seguridad: sus hogares y sus barrios.
         </p>
     </div>
-    <div class="container mt-4"><!-- 
+    <div class="container mt-4"><!--
         <h2 class="red-title text-center medium-font pt-4">casos relacionados</h2> -->
         <div class="row case-card px-3 px-md-5 flex-column">
             <p class="block-title medium-font mt-3 mb-0">Sandra Rivas</p>

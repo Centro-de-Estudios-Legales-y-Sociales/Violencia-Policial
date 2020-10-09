@@ -1279,11 +1279,11 @@ svg {
   overflow-y: hidden;
 }
 */
-.chart{  
+.chart{
     max-width: 100%;
     overflow: scroll;
 }
-.chart.map{  
+.chart.map{
     max-width: 100%;
     overflow: hidden;
 }
@@ -1395,16 +1395,11 @@ svg {
   font-weight: 700;
   font-size: 1.3em;
   color:black;
-  text-align: center;
+  text-align: left;
 }
-
-
-.map-detail .city{
-  color:#D539A3;
-}
-
 .map-detail .number{
   font-weight: 100;
+  color:#D539A3;
 }
 
 @media (min-width: 1024px) {

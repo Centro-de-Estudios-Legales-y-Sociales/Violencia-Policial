@@ -45,7 +45,7 @@ a {
 .anchor-scroll {
   display: block;
   position: relative;
-  top: -70px; 
+  top: -70px;
   visibility: hidden;
 }
 
@@ -178,7 +178,7 @@ p {
   .left-arrow {
     max-width: 45px;
   }
-  
+
   .grid-cases {
     .grid-row {
       max-width: 100%;
@@ -416,12 +416,12 @@ footer {
 
       .ui-select-choices-group.optgroup{
         background: white;
-      }     
+      }
       .ui-select-choices-row {
     border-bottom: solid 1px grey;
     padding-left: 1em;
 }
- 
+
 
     /* Reset right rounded corners, see Bootstrap input-groups.less */
     .input-group > .selectize-control > .selectize-input {
@@ -438,7 +438,7 @@ footer {
 }
 .ui-select-container.selectize-control{
     width: 200px;
-    border-bottom: solid 1px grey;  
+    border-bottom: solid 1px grey;
 }
 
 
@@ -924,7 +924,7 @@ footer {
  .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
    margin-left: -1px;
 }
- 
+
  .input-group-btn button{
   color: #333;
     background-color: #fff;
@@ -946,20 +946,15 @@ footer {
   font-weight: 700;
   font-size: 1.3em;
   color:black;
-  text-align: center;
-}
-
-.map-detail .city{
-  color:#e22929;
+  text-align: left;
 }
 
 .map-detail .number{
   font-weight: 100;
+  color:#D539A3;
 }
-
 svg path.selected{
     stroke: #e22929;
     stroke-width: 5px;
     transition: font-weight 1000ms;
-
 }
