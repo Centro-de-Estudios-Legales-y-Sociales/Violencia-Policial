@@ -1245,7 +1245,8 @@ svg {
 .armas-letales .fullwidth-img,
 .datos-est .fullwidth-img,
 .custodia .fullwidth-img,
-.fuera-servicio .fullwidth-img {
+.fuera-servicio .fullwidth-img,
+section .fullwidth-img {
     max-width: 1140px;
     height: 750px;
     margin: 0 auto;
