@@ -1,8 +1,8 @@
 <section class="header d-flex flex-column flex-md-row justify-content-between">
-    <img src="/assets/img/logo.png" alt="Logo CELS" class="logo-img img-fluid mobile ml-2 d-block d-md-none" />
+    <a href="https://www.cels.org.ar/web" target="_blank"><img src="/assets/img/logo.png" alt="Logo CELS" class="logo-img img-fluid mobile ml-2 d-block d-md-none" /></a>
     <div class="description desc-desktop d-none d-md-block w-50 vh-100">
         <div class="p-3" style="margin: 0 50px">
-            <img src="/assets/img/logo.png" alt="Logo CELS" class="logo-img img-fluid" />
+            <a href="https://www.cels.org.ar/web" target="_blank"><img src="/assets/img/logo.png" alt="Logo CELS" class="logo-img img-fluid" /></a>
             <h1 class="title bold-font">violencia <br/>policial</h1>
             <p class="reg-font mt-3">Violencia policial es una plataforma que reúne datos actualizados sobre lesiones y
                 muertes producidas por
