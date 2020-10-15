@@ -84,7 +84,7 @@ angular
                   itemsFormatted.push(item);
               });
 
-              var fileTitle = 'CELS-victimas-faltales'; // or 'my-unique-title'
+              var fileTitle = 'CELS-victimas-fatales'; // or 'my-unique-title'
 
               exportCSVFile(headers, itemsFormatted, fileTitle); // call the exportCSVFile() function
 
