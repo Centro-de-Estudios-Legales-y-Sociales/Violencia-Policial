@@ -12,7 +12,7 @@
         </ul>
     </div>
     <div class="d-flex mt-5 pt-3 mx-1">
-        <p class="footer-title pr-4">CELS</p>
+        <a href="https://www.cels.org.ar/web" target="_blank"><p class="footer-title pr-4">CELS</p></a>
         <p class="light-font">violencia policial</p>
     </div>
 </footer>
