@@ -12,8 +12,7 @@
         <h1 class="section-title bold-font">4. ejecuciones policiales y uso desproporcionado de la fuerza letal</h1>
         <p class="info light-font mt-4 mb-md-5">Muchas veces las intervenciones policiales terminan en ejecuciones o en el
             uso
-            desproporcionado de la fuerza dado que la situación no habilitaba utilizar el arma de fuego. Y producen
-            muertes y heridas evitables.<br/>
+            desproporcionado de la fuerza dado que la situación no habilitaba utilizar el arma de fuego.<br/>
             Entre las situaciones en las que estos hechos de violencia son más frecuentes están las persecuciones,
             muchas veces originadas en que alguien quiso eludir un control vehicular. También el uso de la fuerza en
             protestas sociales o desalojos deriva en muchas ocasiones en intervenciones violentas. En otros casos, en
@@ -36,7 +35,7 @@
     </div>
     <div class="grey-bg py-5">
         <div class="container mt-4">
-            <h2 class="red-title text-center medium-font pt-4">situaciones que pueden <br/>derivar en desproporción</h2>
+            <h2 class="red-title text-center medium-font pt-4">situaciones que pueden <br/>derivar en violencia extrema</h2>
             <div class="row p-3 position-relative align-items-center justify-content-center">
                 <div class="icons-bar position-absolute"></div>
                 <div class="col-4 text-center">
@@ -68,7 +67,7 @@
             </div>
         </div>
     </div>
-    <div class="container mt-4"><!-- 
+    <div class="container mt-4"><!--
         <h2 class="red-title text-center medium-font pt-4">casos relacionados</h2> -->
         <div class="row case-card px-3 px-md-5 flex-column">
             <p class="block-title medium-font mt-3 mb-0">Silvia Maldonado</p>
