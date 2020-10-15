@@ -4,6 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url" content="https://violenciapolicial.org.ar">
+    <meta property="og:title" content="CELS - Violencia Policial">
+    <meta property="og:image" content="https://violenciapolicial.org.ar/assets/img/og.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CELS - Violencia Policial">
+	<meta name="twitter:url" content="https://violenciapolicial.org.ar"/>	
+	<meta name="twitter:image" content="https://violenciapolicial.org.ar/assets/img/og.jpg">
+    <meta name="twitter:site" content="@CELS_Argentina">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
